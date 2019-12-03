@@ -15,6 +15,8 @@ while i < 2:
 
     endpoint_topics = "https://community.getstation.com/c/ux-design/l/top/all.json"
 
+    endpont_first_comment = \
+
     payload = {
     "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
     "Api-Username": "julien"
