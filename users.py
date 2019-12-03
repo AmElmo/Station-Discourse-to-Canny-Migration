@@ -3,7 +3,7 @@ import requests
 import json
 import time
 
-# Get list of users
+# Get list of users from Discourse enpoint
 
 users = []
 users_info = []
@@ -45,14 +45,14 @@ while i < 100:
     if nb_users_exported < 100:
         break
 
-# Create a formatted string of the JSON object
+# Create a formatted string of the JSON object (for easy reading)
 def jprint(obj):
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
 
-# jprint(users_info)
-
+# Ensure the data is being extracted
 print(len(users_info))
+
 
 # Import data to Canny endpoint
 
