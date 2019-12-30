@@ -12,7 +12,7 @@ i = 0
 while i < 100:
     i = i + 1
 
-    endpoint_users = "https://community.getstation.com/admin/users/list/active.json?show_emails=true"
+    endpoint_users = "https://community.getstation.com/admin/users/list/active.json?order=created&show_emails=true"
 
     payload = {
     "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
