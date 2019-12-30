@@ -10,8 +10,8 @@ In total:
 
 Main scripts:
 
--> users.py: Migrate all users from Discourse to Canny
--> list_boards_canny.py: Fetches the board IDs from Canny in order to push data on the right boards
+- users.py: Migrate all users from Discourse to Canny
+- list_boards_canny.py: Fetches the board IDs from Canny in order to push data on the right boards
 -> general_topics.py: Migrates all topics in the "General" board to Canny "Bugs & Support"
 -> general_comments.py: Migrates all comments in the "General" board to Canny "Bugs & Support"
 -> features_topics.py: Migrates all topics in the "Feature Requests" board to Canny "Features Requests"
