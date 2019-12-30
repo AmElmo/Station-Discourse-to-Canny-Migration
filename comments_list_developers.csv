@@ -1,0 +1,240 @@
+Canny User ID,Topic Title,Comment,Created At
+5de144bf84a659363ba54756,"Station + developers = ideas gathering
+
+","Hey Alexandre,  
+I think that definitely a few things could be done:
+
+   Allow developers to add to an online database that stores information for every service being used(link etc) and create new services for other users.
+   Give access to customizable CSS
+   Release a web version?
+
+Just a few suggestions.  
+Really like the idea!
+
+Dylan
+
+",2017-11-14T20:38:16.593Z
+5a6ffaefec6dbc4d8214e8aa,"Station + developers = ideas gathering
+
+","
+
+[@dylan](/u/dylan) thanks for your ideas!
+
+What do you mean by “an online database that stores information for every
+service being used”?
+
+",2017-11-26T20:14:56.970Z
+5de144bf84a659363ba54756,"Station + developers = ideas gathering
+
+","
+
+Hi [@alexandre](/u/alexandre) ,  
+I mean that it might be cool to have some sort of database or spreadsheet that
+lists everything available in Station(GDocs, GitHub, Slack, etc…), shows basic
+info that allows the app to run each individual site, and lets developers
+custom add other things they want on Station without it being a hassle.
+
+",2017-11-28T01:54:30.131Z
+5de144c50732316dbb414df4,"Station + developers = ideas gathering
+
+","
+
+What apps are being built by Station? I’d love to see spotify and other apps
+be added to make Station a friendlier application beyond work-specific apps.
+
+That being said, there are a couple improvements I can think of:
+
+   Back/forward button - the browser experience is limited if you can’t go back or forward and have to rely on a web apps navigation buttons to get around.
+   Notifications should disappear - ex. after downloading a pdf, the notification is persistent instead of expiring in a few moments.
+   Keyboard shortcut to jump to different tabs - if this already exists, in-app tutorial would be highly beneficial.
+
+How can developers contribute to Station?
+
+",2017-11-29T19:29:33.124Z
+5ac78af6efde2e38d63b2f82,"Station + developers = ideas gathering
+
+","
+
+As a developer, I would love to see the ability to build an “Add to Station”
+button, to quickly add a new app with some configuration variables (account-
+level things) to apps we build that Station supports.
+
+",2017-12-01T19:54:02.601Z
+5ac78af6efde2e38d63b2f82,"Station + developers = ideas gathering
+
+","
+
+As a developer, I’d love a Station SDK to help us expedite the time it takes
+the Station team to support our apps. Some kind of pre-approval checker.and
+hooks that require station developers to build currently.
+
+",2017-12-01T19:54:55.389Z
+5a6f65f5ec6dbc4d8214e28b,"Station + developers = ideas gathering
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/developers/p/station-developers-
+ideas-gathering>
+
+",2019-12-13T15:15:48.392Z
+5a6f6579ec6dbc4d8214e273,"Have access to Station source code
+
+","
+
+Hey [@MatteoPiatti](/u/matteopiatti),
+
+This article will answer your question  
+[faq.getstation.com](https://faq.getstation.com/development-and-technical-
+aspects/is-station-open-source-can-i-fork-station)
+
+### [Is Station open-source? Can I fork
+Station?](https://faq.getstation.com/development-and-technical-aspects/is-
+station-open-source-can-i-fork-station)
+
+No it isn't but we regularly contribute to projects we rely on
+
+",2018-07-10T13:18:39.032Z
+5a6f65f5ec6dbc4d8214e28b,"Have access to Station source code
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/developers/p/have-access-to-
+station-source-code>
+
+",2019-12-13T15:15:47.117Z
+5ddeb0505450cd7acb586780,":eyes: Station is looking for beta-testers of its SDK
+
+","
+
+I am confused as to in how long the SDK will be available for beta testing. Is
+that known yet? If so in how long?
+
+",2018-11-02T09:09:41.414Z
+5de13bff4d88ec6dd511afd7,":eyes: Station is looking for beta-testers of its SDK
+
+","
+
+Hello,
+
+Are their any plans to let developers create their own apps for Station? To
+build apps forcustom in-house tools we have.
+
+For example where I work, we have a team of backend developers who makes API’s
+and mobile/game developers. It would be great if we could create a simple app
+where we can bundle the API documentations in one app.  
+Currently the API documentation for each application is hosted on a unique
+URL, so the Station app would simply need to be able to add URL’s to itself,
+just like how the Jira app in Station does at the moment.
+
+",2018-11-19T09:03:22.000Z
+5ddeb0505450cd7acb586780,":eyes: Station is looking for beta-testers of its SDK
+
+","
+
+The idea of the SDK is very good, and I am looking forward to when it would be
+released. Is there is an estimated date of release?
+
+",2019-02-12T13:23:13.000Z
+5ddeb0505450cd7acb586780,":eyes: Station is looking for beta-testers of its SDK
+
+","
+
+Is there any type of release date yet?
+
+",2019-08-13T23:49:29.007Z
+5de13fd434bf1b3635f07189,"Why are extensions so hard to implement? What is the technical difficulty
+exactly?
+
+","
+
+silence may be the answer I guess
+
+",2018-05-29T21:33:44.466Z
+5a6ffaefec6dbc4d8214e8aa,"Why are extensions so hard to implement? What is the technical difficulty
+exactly?
+
+","
+
+Hi [@StaU](/u/stau),
+
+Sorry for the late answer and thanks for your question!
+
+Actually, Electron is not exactly a modified version of Chromium, it does
+include elements of Chromium (esp. the [content
+module](http://www.chromium.org/developers/content-module)) but not all of
+them. For instance, the module and APIs to support the Chrome extensions is
+missing from original Electron versions.
+
+Some Electron-based applications decided to import Chrome extensions modules
+and API from Chromium into Electron. That’s the case of Brave.  
+We could not re-import Chrome extensions modules from Chromium because our
+interface and architecture is to too far from Chromium’s one (in opposite to
+Brave). We rather decided to re-implement Chrome extensions APIs and adapt it
+to our interface and needs. But this is not an easy task.
+
+Note we might open-source our implementation at some point.
+
+Hope it answers your question
+
+",2018-06-14T13:26:52.694Z
+5a5d0de7a494da75e68ec6be,"Why are extensions so hard to implement? What is the technical difficulty
+exactly?
+
+","
+
+[@Alexandre](/u/alexandre) thanks for the great explanation. Do you have any
+plans to add the todoist extension to Station?
+<https://chrome.google.com/webstore/detail/todoist-for-
+gmail/clgenfnodoocmhnlnpknojdbjjnmecff>
+
+",2019-03-13T07:59:43.587Z
+5a6f65f5ec6dbc4d8214e28b,"Why are extensions so hard to implement? What is the technical difficulty
+exactly?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/developers/p/why-are-extensions-so-
+hard-to-implement-what-is-the-technical-difficultyexactly>
+
+",2019-12-13T15:15:45.863Z
+5a6ffaefec6dbc4d8214e8aa,"Integrate custom JS extensions?
+
+","
+
+[@Jochem](/u/jochem) thanks for your suggestion!
+
+What is the kind of extension you are using? What does it do? Is that a chrome
+extension?
+
+",2018-09-10T14:18:01.735Z
+5723c3393a7a7a2b02ff7493,"Integrate custom JS extensions?
+
+","
+
+I too would like to request the possibility to load Chrome extensions. I
+really like [Dark Reader](https://chrome.google.com/webstore/detail/dark-
+reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en) and
+[Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?hl=en).
+
+",2019-06-05T10:49:49.214Z
+5a6f65f5ec6dbc4d8214e28b,"Integrate custom JS extensions?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/developers/p/integrate-custom-js-
+extensions>
+
+",2019-12-13T15:15:44.593Z
+5a6f65f5ec6dbc4d8214e28b,"What engine runs the cards content
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/developers/p/what-engine-runs-the-
+cards-content>
+
+",2019-12-13T15:15:43.341Z

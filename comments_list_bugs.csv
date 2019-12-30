@@ -1,0 +1,2848 @@
+Canny User ID,Topic Title,Comment,Created At
+5de1449584a659363ba54683,"Welcome to Station's official community :hugs:
+
+","Do you mind sharing what app the community runs on?
+
+",2017-11-30T13:53:23.318Z
+5de142b534bf1b3635f07d7c,"Welcome to Station's official community :hugs:
+
+","
+
+looking at the source code of the page, most likely
+<https://github.com/discourse/discourse>
+
+",2018-03-09T19:40:27.734Z
+5de13d304d88ec6dd511b5f2,"Welcome to Station's official community :hugs:
+
+","
+
+Definitely Discourse. No doubts there.
+
+",2018-04-30T12:04:50.421Z
+5de13c8d34bf1b3635f06013,":pray: Feedbacks needed :pray: -- Google Drive integration with the quick-
+switch
+
+","
+
+I was looking back and just realized I had posted this in the wrong place so
+re-posting on the proper thread. Also, my post was so long  here is the TL;DR:
+
+  1. Make it possible to close an open (google doc) tab with the keyboard: Cmd+W
+  2. Let me switch between multiple google docs with the keyboard: Cmd+[ whatever number is google docs ]
+
+  
+
+This new feature has been awesome (quick switch w/ google docs). It’s now
+making me really want to be able to switch between open google docs using the
+keyboard.
+
+Cmd+[1-9] is such a powerful shortcut. My recommendation for switching between
+tabs within an app is to make it work just like Cmd+Tab does on Mac. For
+example:
+
+Cmd+6 takes me to my Google Drive, it shows me whichever doc I was most
+recently viewing.  
+Now, imagine I press Cmd+6 again while already viewing Google Drive. This
+should toggle to the second-most-recent doc I was viewing.  
+If I press Cmd+6 then let go of 6 but keep holding Cmd it shows me the flyout
+of all the open docs, I can press 6 over and over again while holding Cmd and
+it will cycle through them. When I let go of Cmd it selects it.
+
+Just like Cmd+Tab. The key with Cmd+Tab is that once you’ve selected a new
+app, your previous app becomes the second-most recent. This way Cmd+Tab lets
+you always conveniently cycle between your last two apps. Likewise, Cmd+6
+would let me always cycle between my two most recent docs.
+
+Anyway, just a suggestion to take this feature to the next level! This seems
+to matter more for Google Drive than any other app because it’s the app where
+you inevitably end up with lots of open sub-tabs.
+
+Oh, I also want to be able to close an open Station app tab with keyboard
+shortcut. You should also support this with Cmd+W. This would close the
+current open app, and likewise you could support this with the Cmd+6 cycling.
+I do this all the time with Cmd+Tab. For example, when I want to close a bunch
+of running Mac programs I press Cmd+Tab, let go of Tab but hold Cmd. Tab
+through a couple times to get to the right app but I still don’t let go of
+Cmd, instead I tap Q and it closes the app. It’s awesome to be able to close a
+bunch of Mac apps without needing to switch to them, likewise for closing a
+bunch of Station Google Drive tabs.
+
+  
+
+",2018-08-19T21:35:08.950Z
+5de13118bb2f336dd45f59ed,":pray: Feedbacks needed :pray: -- Google Drive integration with the quick-
+switch
+
+","
+
+I really like this feature, Saves me a lot of time when searching for a
+document on 3 different drives at once.
+
+",2018-10-26T14:19:33.095Z
+5de13118bb2f336dd45f59ed,":pray: Feedbacks needed :pray: -- Revamp of ""My Apps"" in the Settings
+
+","
+
+I really like the color scheme.  
+Maybe a counter of how much CPU/RAM each Account/App uses could be added but
+its not necessary because there already is a Process Manager build in.
+
+",2018-10-26T14:14:18.539Z
+5de138ea4d88ec6dd511a225,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Hey guys,
+
+This is a great feature that I would love to us, but I can’t get it to work.
+Searching for channels does not return any of my channels in the quick switch.
+
+I am on High Sierra, 10.13.15. Station version is 1.16.0.
+
+I tried removing slacking and adding it again, as well as restarting Station,
+but neither worked
+
+",2018-07-13T21:48:35.755Z
+5de13ca934bf1b3635f060d6,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Hi,
+
+Not working for me. Here is the build details -
+
+Stationversion 1.16.0  
+Electron 2.0.2  
+Chrome 61.0.3163.100  
+Node 8.9.3  
+v8 6.1.534.41  
+@getstation/services 0.18.5
+
+Can you put up some details, how does it actually work.
+
+Best
+
+",2018-07-18T11:20:22.667Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+[@ashwanihere](/u/ashwanihere) [@AhmadB](/u/ahmadb) with your help, we have
+identified an issue that could impact you. We’ll be releasing a fix early next
+week! Thanks for your feedbacks!  
+Edit: fix was released in v1.16.2 (see comment below).
+
+",2018-07-18T12:41:50.132Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+We just released Station v1.16.2 that fixed an issue that could prevent some
+users to see Slack channels in Quick-Switch’s results.
+
+",2018-07-19T07:29:34.224Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+️ Note we released an integration between Google Drive and the Quick Switch as
+well. Feedback are welcome [here](https://community.getstation.com/t/request-
+for-feedback-google-drive-integration-with-the-quick-switch/3263)!
+
+",2018-07-19T09:12:33.011Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+In version 1.17.0, we improved the relevancy of the results shown, even for
+the first usage (Quick-Switch is learning from using it to show the most
+relevant results.  
+Also we are taking into account nicknames in Slack and removing deleted users
+from the results displayed.
+
+",2018-07-25T12:37:44.870Z
+5de1378e34bf1b3635f04516,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+I’ve been enjoying it but it does seem to be missing private Slack channels.
+Also, it would be helpful if it could identify which Slack team the channel is
+in. For example, I have the same person in two of my Slack teams but we only
+really communicate in one of them–I want to know which team I’m switching to.
+
+",2018-08-03T15:24:34.704Z
+5a6f65f5ec6dbc4d8214e28b,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Hi [@isaiahfranco](/u/isaiahfranco), thanks for your feedbacks.
+
+Indeed private slack channels are not yet accessible but we will add them
+soon. And good point on the ability to see which Slack team a contact is from,
+we’ve already designed it and will implement it in the V.2 coming soon!
+
+",2018-08-07T15:38:40.878Z
+5de13e47bb2f336dd45f950f,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+isaiahfranco:
+
+> r
+
+Biggest deal-breaker for me it the inability to use Cmd+T to quickly switch
+between channels/private messages. Slack is my bread and butter at work. Will
+have to remove from Station until this is resolved.
+
+",2018-08-08T16:00:20.449Z
+5de13c8d34bf1b3635f06013,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+This new feature has been awesome. It’s now making me really want to be able
+to switch between open google docs using the keyboard.
+
+Cmd+[1-9] is such a powerful shortcut. My recommendation for switching between
+tabs within an app is to make it work just like Cmd+Tab does on Mac. For
+example:
+
+Cmd+6 takes me to my Google Drive, it shows me whichever doc I was most
+recently viewing.  
+Now, imagine I press Cmd+6 again while already viewing Google Drive. This
+should toggle to the second-most-recent doc I was viewing.  
+If I press Cmd+6 then let go of 6 but keep holding Cmd it shows me the flyout
+of all the open docs, I can press 6 over and over again while holding Cmd and
+it will cycle through them. When I let go of Cmd it selects it.
+
+Just like Cmd+Tab. The key with Cmd+Tab is that once you’ve selected a new
+app, your previous app becomes the second-most recent. This way Cmd+Tab lets
+you always conveniently cycle between your last two apps. Likewise, Cmd+6
+would let me always cycle between my two most recent docs.
+
+Anyway, just a suggestion to take this feature to the next level! This seems
+to matter more for Google Drive than any other app because it’s the app where
+you inevitably end up with lots of open sub-tabs.
+
+Oh, I always to be able to close an open Station app tab with keyboard
+shortcut. You should also support this with Cmd+W. This would close the
+current open app, and likewise you could support this with the Cmd+6 cycling.
+I do this all the time with Cmd+Tab. For example, when I want to close a bunch
+of running Mac programs I press Cmd+Tab, let go of Tab but hold Cmd. Tab
+through a couple times to get to the right app but I still don’t let go of
+Cmd, instead I tap Q and it closes the app. It’s awesome to be able to close a
+bunch of Mac apps without needing to switch to them, likewise for closing a
+bunch of Station Google Drive tabs.
+
+",2018-08-12T03:32:14.327Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Since Station v1.20.0, we now support private channels.  
+Feedback welcome!
+
+",2018-08-16T13:10:28.854Z
+5de1378e34bf1b3635f04516,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Loving it so far! Such a great addition!
+
+",2018-09-02T17:28:18.776Z
+5de13a6f84a659363ba526cc,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+I’ve had to remove my Slack integrations. My teams have 5000+ team members -
+pretty much any search string in quick search was returning a random member -
+making quick search nearly impossible without typing a much longer search
+phrase.
+
+",2019-01-02T13:22:20.271Z
+5de13a7b4d88ec6dd511a79e,":pray: Feedbacks needed :pray: -- Slack integration in the Quick-Switch
+
+","
+
+Brief description of the issue
+
+The quick-switcher should allow me to spotlight search (in a way) with
+different apps I have integrated, right? For example, I’m on another app and I
+have to DM someone on Slack. I should be able to type in their name from the
+quick-switcher, hit enter, and that would take me right to their DMs on Slack.
+I’ve been using Station for a couple days and so far it only worked properly
+on one day, which is really odd.
+
+  
+
+Mandatory details
+
+   Trigger — Command + T
+
+   Issue — Quick-switcher
+
+   Explanatory gifs/pictures —
+
+   OS version — Mojave 10.14.2
+
+   Station version — 1.35.0
+
+",2019-01-03T22:58:11.000Z
+-1,"2018: The Year in Review
+
+","
+
+## [Top #Bugs, support & troubleshooting
+Topics](https://community.getstation.com/c/bugs/l/top)
+
+### Most Read
+
+User | Topic | Hours Read  
+---|---|---  
+| [Station is slow / high memory usage / high CPU
+load](https://community.getstation.com/t/station-is-slow-high-memory-usage-
+high-cpu-load/866) | 25  
+| [WhatsApp is not working / ""works with Google Chrome 36+"" / stuck on Chrome
+update page](https://community.getstation.com/t/whatsapp-is-not-working-works-
+with-google-chrome-36-stuck-on-chrome-update-page/4829) | 24  
+| [Station won't launch but appears in the task manager / processes are
+running but nothing happens / I can't see the main window / can't bring
+Station to the foreground](https://community.getstation.com/t/station-wont-
+launch-but-appears-in-the-task-manager-processes-are-running-but-nothing-
+happens-i-cant-see-the-main-window-cant-bring-station-to-the-foreground/2603)
+| 8  
+| [App doesn't load / blank screen / white page / nothing is displayed (Gmail,
+OneDrive, WhatsApp, Slack, Missive, Messenger, TickTick, Google Voice
+...)](https://community.getstation.com/t/app-doesnt-load-blank-screen-white-
+page-nothing-is-displayed-gmail-onedrive-whatsapp-slack-missive-messenger-
+ticktick-google-voice/2047) | 8  
+| [Asana doesn't load](https://community.getstation.com/t/asana-doesnt-
+load/1738) | 7  
+  
+### Most Replies
+
+User | Topic | Replies  
+---|---|---  
+| [WhatsApp is not working / ""works with Google Chrome 36+"" / stuck on Chrome
+update page](https://community.getstation.com/t/whatsapp-is-not-working-works-
+with-google-chrome-36-stuck-on-chrome-update-page/4829) | 118  
+| [Station is slow / high memory usage / high CPU
+load](https://community.getstation.com/t/station-is-slow-high-memory-usage-
+high-cpu-load/866) | 81  
+| [Station won't launch but appears in the task manager / processes are
+running but nothing happens / I can't see the main window / can't bring
+Station to the foreground](https://community.getstation.com/t/station-wont-
+launch-but-appears-in-the-task-manager-processes-are-running-but-nothing-
+happens-i-cant-see-the-main-window-cant-bring-station-to-the-foreground/2603)
+| 55  
+| [Microsoft Teams, Coda, Webflow, Shopify, Close.io & others not working
+because of obsolete Chrome version / incompatible browser / outdated
+Electron](https://community.getstation.com/t/microsoft-teams-coda-webflow-
+shopify-close-io-others-not-working-because-of-obsolete-chrome-version-
+incompatible-browser-outdated-electron/555) | 54  
+| [MixMax extension doesn't work / is not loading in
+Gmail](https://community.getstation.com/t/mixmax-extension-doesnt-work-is-not-
+loading-in-gmail/67) | 48  
+  
+### Most Popular
+
+User | Topic | Score  
+---|---|---  
+| [WhatsApp is not working / ""works with Google Chrome 36+"" / stuck on Chrome
+update page](https://community.getstation.com/t/whatsapp-is-not-working-works-
+with-google-chrome-36-stuck-on-chrome-update-page/4829) | 16  
+| [Station is slow / high memory usage / high CPU
+load](https://community.getstation.com/t/station-is-slow-high-memory-usage-
+high-cpu-load/866) | 16  
+| [App doesn't load / blank screen / white page / nothing is displayed (Gmail,
+OneDrive, WhatsApp, Slack, Missive, Messenger, TickTick, Google Voice
+...)](https://community.getstation.com/t/app-doesnt-load-blank-screen-white-
+page-nothing-is-displayed-gmail-onedrive-whatsapp-slack-missive-messenger-
+ticktick-google-voice/2047) | 15  
+| [Station won't launch but appears in the task manager / processes are
+running but nothing happens / I can't see the main window / can't bring
+Station to the foreground](https://community.getstation.com/t/station-wont-
+launch-but-appears-in-the-task-manager-processes-are-running-but-nothing-
+happens-i-cant-see-the-main-window-cant-bring-station-to-the-foreground/2603)
+| 15  
+| [404 error / URL not found / something is not right on Google Calendar,
+Google Drive or Google Inbox](https://community.getstation.com/t/404-error-
+url-not-found-something-is-not-right-on-google-calendar-google-drive-or-
+google-inbox/1534) | 15
+
+",2019-01-19T12:05:56.016Z
+-1,"2018: The Year in Review
+
+","  
+  
+## [Top #Feature requests Topics](https://community.getstation.com/c/features-
+request/l/top)
+
+### Most Replies
+
+User | Topic | Replies  
+---|---|---  
+| [Custom URL support / Support any web-
+app](https://community.getstation.com/t/custom-url-support-support-any-web-
+app/363) | 80  
+| [Integration with password managers (1password, Lastpass &
+Dashlane)](https://community.getstation.com/t/integration-with-password-
+managers-1password-lastpass-dashlane/80) | 72  
+| [Allow multiple accounts for apps that don't handle session / instance
+isolation (WhatsApp, Twitter, Telegram, Asana, Trello, Invision, Messenger,
+Atlassian, Linkedin, OneDrive, Outlook, Buffer, Hotjar, AWS, Monday, Airtable,
+etc.)](https://community.getstation.com/t/allow-multiple-accounts-for-apps-
+that-dont-handle-session-instance-isolation-whatsapp-twitter-telegram-asana-
+trello-invision-messenger-atlassian-linkedin-onedrive-outlook-buffer-hotjar-
+aws-monday-airtable-etc/322) | 40  
+| [Minimize Station to tray (Windows) / add Station to the menu bar (Mac
+OS)](https://community.getstation.com/t/minimize-station-to-tray-windows-add-
+station-to-the-menu-bar-mac-os/235) | 28  
+| [Have multiple instances / profiles / workspaces of Station (for employees,
+part-timers, freelancers, students,
+etc.)](https://community.getstation.com/t/have-multiple-instances-profiles-
+workspaces-of-station-for-employees-part-timers-freelancers-students-etc/191)
+| 26  
+  
+### Most Popular
+
+User | Topic | Score  
+---|---|---  
+| [Have a dark or night mode / allow custom themes in Station / change UI
+color](https://community.getstation.com/t/have-a-dark-or-night-mode-allow-
+custom-themes-in-station-change-ui-color/1042) | 14  
+| [Do not open a URL in the corresponding app if it's not already added /
+don't force app installation on link
+click](https://community.getstation.com/t/do-not-open-a-url-in-the-
+corresponding-app-if-its-not-already-added-dont-force-app-installation-on-
+link-click/1260) | 14  
+| [Customisable keyboard shortcuts / turn-off some
+keybindings](https://community.getstation.com/t/customisable-keyboard-
+shortcuts-turn-off-some-keybindings/1152) | 14  
+| [Support for touchpad gestures / mouse
+buttons](https://community.getstation.com/t/support-for-touchpad-gestures-
+mouse-buttons/1165) | 14  
+| [Reorder pages / sort tabs in alphabetical order / move bookmarks up and
+down / lock pages on top](https://community.getstation.com/t/reorder-pages-
+sort-tabs-in-alphabetical-order-move-bookmarks-up-and-down-lock-pages-on-
+top/1567) | 13
+
+",2019-01-19T12:05:56.574Z
+-1,"2018: The Year in Review
+
+","  
+  
+## [Top #UX & Design feedback Topics](https://community.getstation.com/c/ux-
+design/l/top)
+
+### Most Replies
+
+User | Topic | Replies  
+---|---|---  
+| [The subdock is too big / side-panel is annoying / hover menu is
+frustrating](https://community.getstation.com/t/the-subdock-is-too-big-side-
+panel-is-annoying-hover-menu-is-frustrating/162) | 29  
+  
+### Most Popular
+
+User | Topic | Score  
+---|---|---  
+| [Moving, repositioning or resizing Station's window is difficult / top bar
+is invisible and too thin / grabbable area is
+small](https://community.getstation.com/t/moving-repositioning-or-resizing-
+stations-window-is-difficult-top-bar-is-invisible-and-too-thin-grabbable-area-
+is-small/1221) | 13
+
+",2019-01-19T12:05:57.402Z
+5de13b4f84a659363ba52afc,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","  
+  
+• It’s working  
+• No  
+• No, if you keep this option, I would like to disable it…  
+• Mac OS 10.14.1
+
+Please remove it…  
+You duplicate the content with the items that we have in the bar, the shortcut
+was enough. Use the simple rules of “Don’t Repeat yourself :)”
+
+",2018-11-22T09:53:00.757Z
+5a6ffaefec6dbc4d8214e8aa,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+[@akysto](/u/akysto) let me ask few questions to better understand your point:
+
+You answer “no” to “Are results relevant?”. What do you actually see? And what
+do you expect?
+
+> You duplicate the content with the items that we have in the bar, the
+> shortcut was enough. Use the simple rules of “Don’t Repeat yourself""
+
+To be sure. What do you call the “bar”? Is that the Quick-Switch opened via
+`Cmd+T` or the Dock (left panel)?
+
+",2018-11-22T10:08:55.351Z
+5de13b4f84a659363ba52afc,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Mmmmh in fact, duplication is what you will see on the screenshot. 2 times the
+same app.
+
+You have access to all your instance in the menu “bar” on the left. If you do
+a cmd+t you will go back to the last screen you visited
+
+What’s the added value to repeat this information, I mean the last app I
+visited there? If you would like to keep this history track, make it more
+discret or the possibility to active or not the option… Like when you hold the
+back on you browser, you will have the drop down and see the last page
+visited.
+
+[ Capture d’écran 2018-11-22 à 11.11.35.jpg2852×2032 549 KB
+](https://community.getstation.com/uploads/default/original/2X/8/81148c2905574b1fa99153f6c272da5ee4a16fa4.jpeg
+""Capture d’écran 2018-11-22 à 11.11.35.jpg"")
+
+",2018-11-22T10:19:48.750Z
+5de13b8734bf1b3635f05997,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+It is working fine for me, but I feel like we should have an option to disable
+it if we don’t want it. Personally, I feel like it’s just in my way and I
+immediately looked to disable it only to find out that I couldn’t.
+
+",2018-11-22T13:31:46.329Z
+5de13c034d88ec6dd511afe3,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+It does work for me. I’m on Windows 7 and version 1.30.0.
+
+I’m the kind of person that really likes to avoid using the mouse at all cost,
+so this is actually useful for me. The shortctuts for ctrl+1-9 are useful but
+are only limited to the first 9; then the ctrl+t menu is the best option but,
+unfortunately, it is quite uncomfortable to use compared to the limited one
+offered by using ctrl+tab.
+
+Although it has certain problems. Unless I want to change to the most recent
+tab used I have to hold the ctrl key which can be tiresome. Not only that but
+the Esc button to close it doesn’t work because the ctrl+Esc is a combination
+that already exists in the OS; just realeasing ctrl is not an option because
+it forces me to switch to another tab, it just does not let me stay in the
+same tab.
+
+The only thing I really liked about it was the key combination to use it.
+Having to hold ctrl to use it, not being able to use the arrow keys, not
+allowing me to stay in the current tab, nor allowing me to write a different
+tab from my recent ones just makes it feel like a downgrade from ctrl+t.
+
+",2018-11-22T23:14:09.586Z
+5de13ba584a659363ba52d3e,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+tldr; Please add an option to disable the subdock and recent icon.
+
+DETAILS  
+My use case for Station is simple: Click an icon and switch to one of a dozen
+communication apps/interfaces and therefore I/my users find both the subdock
+and recent icon/sublists “in the way” of performing our primary objective.
+
+   The subdock includes settings/options unnecessary for Station’s core functionality and adding these “benefits” blocks a critical chunk of the screen without adding value to my users (literally covering the content they want to see).
+   The “recent icon” takes a space that users could use for an app which could reduce long lists/icon scrolling.
+   Obviously I haven’t performed any real testing, but assuming a user has less than a full column (probably a large majority of Station’s users?), making the mental connection that “I’m looking for the last app/icon I used in Station earlier today” then going to the top of the column (a new place for that icon) to find and click on it, seems like it would require more of a cognitive load then just clicking on the icon they’re looking for (which is where their mind and muscle memory knows it’s always been).
+
+Appreciating some people desire the added functionality of the subdock and
+“recent icon/lists,” my personal ask is before going further down this rabbit
+hole, for the love of good UX, add options in Station’s core preferences to
+turn these distractions off!
+
+   Inability to disable the subdock was why Station failed my initial round of testing… I came back because of your great selection of app extensions – and would love to both stay and recommend Station to my clients but the inability to disable the subdock is teetering on deal-breaker.
+
+… Just my 10¢ (2¢ adjusted for inflation)
+
+Travis Neal  
+[travis@travisneal.com](mailto:travis@travisneal.com)
+
+",2018-11-23T20:00:19.076Z
+5de13c0034bf1b3635f05c40,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Can I turn that off?
+
+My problem is that it takes up valuable real estate and I’v hit it
+accidentally several times meaning to hit the icon that usually sits in that
+spot. They’re in a particular order and this just kills the whole thing
+
+  
+
+Mandatory details
+
+   Trigger —
+
+   Issue —
+
+   Explanatory gifs/pictures —
+
+   OS version —
+
+   Station version —
+
+",2018-11-23T13:10:42.000Z
+5de13bf734bf1b3635f05c0e,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I am not a fan of the “Recents” item in the dock. I don’t use it, and it take
+a prominent space in the dock that I would prefer to reserve for my most
+frequently used app. Plus, with this extra icon in my dock, I now have to
+scroll in order to see the apps at the bottom of my dock.
+
+Please allow us to disable this.
+
+",2018-11-25T17:21:24.209Z
+5de13bbe34bf1b3635f05aa1,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+it’s working but I don’t like it and I don’t use it.  
+It takes useful space, expecially with many services on not high res monitor.  
+I’d like a setting to disable it.
+
+",2018-11-26T08:20:06.427Z
+5de13ba5bb2f336dd45f825f,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+please give us an option to hide the following: “recents”, the <3 icon to
+share Station, add new button, and the mute button. They just eat up important
+sidebar space.
+
+",2018-11-26T09:14:33.544Z
+5de1399ac0e4046dc8873621,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+It’s a neat feature, and I could see it being useful for someone with more
+apps than I use, or for saving a keystroke or so for someone who switches
+among a handful of apps using the keyboard a lot.
+
+Putting the icon at the top of the list instead of the bottom and making the
+subdock appear on mouse-over instead of click are both excellent ways to make
+the new feature stand out and get feedback.
+
+However, combined with the fact that it looks as if one of my app icons has
+just migrated to the top of the list (but doesn’t behave that way), the
+result is that my immediate reaction to it was to try to look up how to
+disable it or at least move it to the bottom of the panel, and I may try to
+figure out how to hide it using the Station developer tools since there don’t
+seem to be any relevant options for it yet. That’s how irritating it is.
+
+",2018-11-23T16:55:58.156Z
+5de13a884d88ec6dd511a7e6,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Brief description of the issue
+
+My problem is that pressing Ctrl+Tab twice doesn’t always go back to the same
+2 programs. Also, there’s only a max of 4 programs in the quick switch
+Recents, and the actual last one doesn’t show up
+
+NOTE: this does work on my Dell computer but not my Razer computer, both have
+Windows 10 and version 1.30.0
+
+  
+
+Mandatory details
+
+   Trigger — ctrl+tab
+
+   Issue — last program isn’t there
+
+   Explanatory gifs/pictures — last app should be the green Slack
+
+[ image.png603×615 46.1 KB
+](https://community.getstation.com/uploads/default/original/2X/3/34c0b6ea9faf857a6374263b1cc985c5ada0f166.png
+""image.png"")
+
+   OS version — Windows 10
+
+   Station version — 1.30.0
+
+",2018-11-24T21:51:44.000Z
+5de13bf534bf1b3635f05bfe,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I’m honestly not a fan of this new implementation. To be honest, I never use
+quicklinks anyway, since I have either the mouse to use, or hotkeys of cmd+
+(number), it doesn’t really get any faster than that for me.
+
+Additionally, it gets in the way at the top there, and I can find myself
+clicking on it by accident more often than I’m happy doing. It also just looks
+bad when it displays, for example, the Twitter logo. It’s just not a good look
+all-round as far as I’m concerned.
+
+That said, I can see the benefit for some people. I can see that it’s a really
+good function for people…but not all people. In light of that (and something
+I’ve thought of before you even implemented this new approach), is why not
+simply allow people to disable it via toggle if they see no need for it. To
+force people into using a function that is both useless AND gets in the way of
+some people, is just poor UX implementation.
+
+I know it sounds like I’m whining about something…honestly, I’m not. But, for
+me, it was a useless function to me before, and now it’s both useless AND
+getting in the way (functionally and visually).
+
+Thanks
+
+",2018-11-26T09:39:19.247Z
+5de13a884d88ec6dd511a7e6,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+agreed that there should be an option to disable the recent dock icon; it does
+get in the way; even better, maybe move it to the bottom of the sidebar
+instead of the top so it’s clearly separate from the rest of the programs
+
+",2018-11-26T16:10:51.887Z
+5de12a5b84a659363ba4ea4d,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I like the new Ctrl + Tab switch, it’s not in the way anymore, so it doesn’t
+interfere with the mouse as it used to for me. It’s much faster () to trigger
+! It’s a much better implementation that the Ctrl + T pop-in you had.
+
+The look and feel is great, although I realized after some time that I only
+use the : switch to last content (app or page or section within app) option.
+But I use it A LOT! I very seldom switch back 2 contents or more. I never use
+the recent content list with my mouse.
+
+I find the new recent dock icon convenient somehow as it helps me confirm
+where i’ll switch back to. But I understand some people would like to hide it
+as it takes one extra app space on top)
+
+I had issues on my first sessions with Ctrl + Tab: some apps would not appear
+in the list (win 10, v1.30). After restarting station it seems to have gone.
+I’ll report back if it happens again (it’s super annoying, so I won’t miss it
+if it does  )
+
+My two cents on possible improvement: maybe you should merge the switch app
+and search into the magnifier button. Why couldn’t magnifier be used to find
+recent apps? For those who like and use that feature, it could make sense too…
+What do you think ?
+
+",2018-11-27T14:09:36.733Z
+5de1389d4d88ec6dd511a126,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Station 1.30.0 on Mac responds very slow when switching between apps/extension
+and i believe the quick-switch is to blame. Did not have this issue with
+previous releases. This is especially bad when switching to android messenger,
+whatsapp and skype.
+
+",2018-11-27T14:14:45.949Z
+5de1389d4d88ec6dd511a126,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+agree, we should have the option to disable this. I feel this feature is also
+creating delays in UI response.
+
+",2018-11-27T14:16:35.159Z
+5bf5bfb3a9055d4734d7e313,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+[ Screen Shot 2018-11-27 at 9.50.25 AM.png1115×604 116 KB
+](https://community.getstation.com/uploads/default/original/2X/0/032922c869d464144298533c6696627569bc871b.png
+""Screen Shot 2018-11-27 at 9.50.25 AM.png"")
+
+My Station is stuck on this notification and I can’t do anything. I force
+closed the application, deleted the application from my computer, re-installed
+it, but no longer can do anything because of the notification telling me about
+Quick Switch. Anyone get this? I’m locked out of Station until there’s a work-
+around.
+
+",2018-11-27T14:51:58.503Z
+5a6f6579ec6dbc4d8214e273,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Sorry for that [@JustinRosales](/u/justinrosales),
+
+Resetting your Station should do the job:  
+[faq.getstation.com](https://faq.getstation.com/bugs-and-glitches/how-can-i-
+get-a-fresh-start-on-my-station)
+
+### [How can I get a fresh start on my
+Station?](https://faq.getstation.com/bugs-and-glitches/how-can-i-get-a-fresh-
+start-on-my-station)
+
+Erase one specific folder & you'll reset your Station
+
+",2018-11-27T17:25:42.795Z
+5bf5bfb3a9055d4734d7e313,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+Hi [@Georges](/u/georges),
+
+I followed the steps you provided in “How can I get a fresh start on my
+Station.” When I opened Station, it did delete all of my applications and
+asked me to re-sign in. After going through the process of signing in, picking
+new apps, as soon as it loaded all of the apps, the Quick Start notification
+came back and I’m back to the same locked screen, unable to do anything. Any
+other ideas? Thanks!
+
+",2018-11-27T17:41:20.293Z
+5de13be834bf1b3635f05b9b,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+How can I remove this feature from my left nav ASAP?
+
+",2018-11-27T19:35:53.415Z
+5de13bb084a659363ba52d7d,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I for one, like the feature a lot! I am a shortcut user so I hardly even
+noticed that the icons shifted. I use the cmd+1-9 keys all day, and when
+switching back and fourth between apps works well for me if it’s one of the
+apps I use regularly enough to know its number. ctrl+tab works much better for
+that. Great improvement.
+
+I can understand how people would not like the location of the icon, and it
+certainly doesn’t need to be there as far as I’m concerned. The only time I’m
+going back and fourth between 2 apps, I’m well aware of which apps those are,
+so there’s no need for me to see the most recent app up at the top. It also
+doesn’t work so well when you have custom icons for Slack. My “most recent”
+app right now is the Slack icon, but I don’t even have the Slack icon in my
+Station, I have my own Slack icons, so that’s kinda weird.
+
+",2018-11-28T17:44:32.754Z
+5de1399ac0e4046dc8873621,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+View -> Toggle Station developer tools -> select an element to inspect it ->
+experiment with styling. Unfortunately I think it has to be done whenever you
+relaunch Station, but at least it’s possible.
+
+My suggestion is to find the div with the class `appcues-subdock-recent`,
+which will also have a classname of c followed by some numbers (mine is c0121;
+I don’t think it’s autogenerated and subject to change, but I’m not sure). I
+changed the `height` of the .c0121 class to 0px instead of 30px. This caused
+the icon to disappear and I can’t mouse over it anymore, but the CTRL+TAB
+keyboard shortcut still works if I want to use it.
+
+On the bright side, this feature and how invasively it grabbed my attention
+has let me to discover that the CTRL+T quick switch is way more useful to me
+than I’d realized!
+
+",2018-11-29T19:13:53.928Z
+5de13527c0e4046dc88718e2,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+The quickswitch indicator thing in the top left under the search bar shows me
+profile pictures from my last used conversations on slack and -so- many people
+at the office thinks that I’ve somehow logged in as them on slack. Can’t you
+make it clearer in the station UI that it’s not -me- that’s supposed to be
+there?
+
+",2018-12-06T16:37:51.000Z
+5de13304b36037347d41d194,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+   It’s working for me
+   They are relevant but lacking
+   Yes
+   Ubuntu 18.0.4 LTS
+
+I am really liking it. I have tons of channels and this helps me switch
+between them meaninglessly. However, I’d love to have this cover more apps
+like messenger, whatsapp, discord… you name it!
+
+Keep up the good work
+
+",2018-12-10T06:26:24.927Z
+5de12a5b84a659363ba4ea4d,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+No switch back to google drive
+
+My problem is that when I switch away from google drive, quick switch doesn’t
+let me switch back to drive (but instead to the before last app used
+
+  
+
+Mandatory details
+
+   Trigger : Switch app from google drive and back to google drive (with keyboard shortcut, of quick switch button or app list)
+
+   Issue : drive doesn’t appear. Note that depending on the sequence of actions, this bug doesn’t always reproduce…
+
+   Explanatory gifs/pictures :  
+
+   OS version : W10
+
+   Station version : 1.33 (but it occured in previous versions)
+
+  
+
+",2018-12-14T11:52:57.000Z
+5723c3393a7a7a2b02ff7493,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I would like to have the quickswitch have another section for notifications,
+or maybe a hotkey for the notificiations?
+
+What happens is, a notification comes in, it shows briefly on my desktop
+(macOS), and if I’m too late to click it, I have to hit my global hotkey for
+Station, and then hunt for the tab with the notification.
+
+",2018-12-21T14:31:18.201Z
+5de1372fc0e4046dc8872503,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I love it but some pages ive saved on one google account (sites), won’t save
+as a new page on my other google account, it just opens it up in chrome.
+
+",2018-12-30T09:49:38.396Z
+5de134c8bb2f336dd45f6e46,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+This issues is the same as a ticket I submitted in November - [Cannot see
+Google Docs, Slides, or Sheets in Quick-
+Switcher](https://community.getstation.com/t/cannot-see-google-docs-slides-or-
+sheets-in-quick-switcher/4808)
+
+Brief description of the issue
+
+My problem is that when I connect Google Drive in Quick-Switch I can no longer
+see any Google items in Recents or in the Quick-Switch menu.
+
+  
+
+Mandatory details
+
+   Trigger — Make sure I can see Google items in Recents and Quick-Switch menu, but then I connect to Google Drive via Quick-Switch.
+
+   Issue — All the Google items I was previously able to see in Recents and Quick-Switch are no longer visible. Additionally, any new Google items I view in Station do not show up in Recents or Quick-Switch.
+
+   Explanatory gifs/pictures —
+
+Pics from before I connect Google Drive:  
+
+[ Station.png2024×764 57.5 KB
+](https://community.getstation.com/uploads/default/original/2X/7/7eceea9d38ff09a4168c7ee48eb6bb23eaf546cc.png
+""Station.png"")
+
+  
+
+[ PastedImage1119311PM.png674×800 87.8 KB
+](https://community.getstation.com/uploads/default/original/2X/8/88ef035434872b17f18735ebe9dfee883c4dcba9.png
+""PastedImage1119311PM.png"")
+
+  
+
+[ PastedImage1119312PM.png1042×1306 147 KB
+](https://community.getstation.com/uploads/default/original/2X/8/83b5b401eec5fb824ea8f180f03c538b279a160b.png
+""PastedImage1119312PM.png"")
+
+Pics from after I connect Google Drive:  
+
+[ Station.png1568×772 59.7 KB
+](https://community.getstation.com/uploads/default/original/2X/9/98a0abffce3243290537e98e4f000f707b131afa.png
+""Station.png"")
+
+  
+
+[ PastedImage1119314PM.png718×916 108 KB
+](https://community.getstation.com/uploads/default/original/2X/f/f1c6e23b373c9436116010a53825243cce15c924.png
+""PastedImage1119314PM.png"")
+
+  
+
+[ PastedImage1119315PM.png1148×1398 192 KB
+](https://community.getstation.com/uploads/default/original/2X/f/f05a9c8fe35b40ef4404ca5bc03e2f7770b5ca59.png
+""PastedImage1119315PM.png"")
+
+   OS version — macOS 10.14.2  
+
+[ PastedImage1119316PM.png991×621 183 KB
+](https://community.getstation.com/uploads/default/original/2X/c/c4c7160986dad45ac8bd4b61f973fa6c82ef7d98.png
+""PastedImage1119316PM.png"")
+
+   Station version — 1.35.0  
+
+[ PastedImage1119317PM.png732×436 24.1 KB
+](https://community.getstation.com/uploads/default/original/2X/a/a61bbcc64234c37d806db168c09dfe16ac7327d6.png
+""PastedImage1119317PM.png"")
+
+",2019-01-01T22:19:59.000Z
+5a6f6579ec6dbc4d8214e273,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+[@Alexandre](/u/alexandre), this looks like a regression that was recently
+introduced. Any insights?
+
+",2019-01-02T14:47:36.916Z
+5de12a5b84a659363ba4ea4d,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I updated to version 1.35, and I still have issues with google drive docs not
+showing up properly in the quick switch (see my previous post). Any update on
+that problem ?  It ruins the quick switch experience when working with drive
+docs
+
+",2019-01-23T10:38:11.381Z
+5de134c8bb2f336dd45f6e46,":pray: Feedbacks needed :pray: -- Quick-Switch: recent dock and subdock
+
+","
+
+I’m still experiencing this issue.
+
+",2019-04-16T23:05:14.899Z
+5dde86e4202a4008f41b61ba,"Cannot login to spotify
+
+","
+
+Why can’t I even see the Spotify app, other than the ‘Spotify Artist
+Analytics’?  
+
+[ image624×700 76.1 KB
+](https://community.getstation.com/uploads/default/original/2X/1/1e2026ecca9facd69b28c69d27a65208a5459bce.jpeg
+""image"")
+
+",2019-11-22T02:59:04.973Z
+5d2306856f9b2b2e12de275d,"Cannot login to spotify
+
+","
+
+Hello [@Luffy205](/u/luffy205) and [@JRCampos](/u/jrcampos),
+
+You can’t download Spotify in Station because we know it won’t be working.
+It’s something out of our hand for the moment and we are sorry about that.
+
+",2019-11-26T16:54:50.225Z
+5a6f65f5ec6dbc4d8214e28b,"Cannot login to spotify
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/feature-requests/p/cannot-login-to-
+spotify>
+
+",2019-12-13T14:58:57.458Z
+5a6f65f5ec6dbc4d8214e28b,"Date and Time BUG
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/date-and-time-bug>
+
+",2019-12-13T15:13:56.794Z
+5a6f65f5ec6dbc4d8214e28b,"Second Google Calendar App cannot be removed
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/second-google-
+calendar-app-cannot-be-removed>
+
+",2019-12-13T15:13:58.060Z
+5a6f65f5ec6dbc4d8214e28b,"Gmail ""Quick Links"" Don't Open in Default Browser
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/gmail-quick-links-
+dont-open-in-default-browser>
+
+",2019-12-13T15:13:59.308Z
+5a6f65f5ec6dbc4d8214e28b,"Airbnb Multile Accounts?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/airbnb-multile-
+accounts>
+
+",2019-12-13T15:14:00.674Z
+5a6f65f5ec6dbc4d8214e28b,"Asana tab not loading - tip pls
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/asana-tab-not-
+loading-tip-pls>
+
+",2019-12-13T15:14:01.940Z
+5a6f65f5ec6dbc4d8214e28b,"Mac Catalina - Lockup and Crash/Restart - Station identified as a possible
+culprit
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/mac-catalina-lockup-
+and-crashrestart-station-identified-as-a-possibleculprit>
+
+",2019-12-13T15:14:03.189Z
+5a6f65f5ec6dbc4d8214e28b,"Infusionsoft App Issues
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/infusionsoft-app-
+issues>
+
+",2019-12-13T15:14:04.465Z
+5a6f65f5ec6dbc4d8214e28b,"How do I make ""Open Link in Default Browser"" the default?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-do-i-make-open-
+link-in-default-browser-the-default>
+
+",2019-12-13T15:14:05.745Z
+5a6f65f5ec6dbc4d8214e28b,"Open links on Station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/open-links-on-
+station>
+
+",2019-12-13T15:14:07.003Z
+5a6f65f5ec6dbc4d8214e28b,"Double windows upon startup
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/double-windows-upon-
+startup>
+
+",2019-12-13T15:14:08.273Z
+5a6f65f5ec6dbc4d8214e28b,"Installtion is block
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/installtion-is-
+block>
+
+",2019-12-13T15:14:09.524Z
+5a6f65f5ec6dbc4d8214e28b,"Location in Google calendar does not autocomplete with suggestion
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/location-in-google-
+calendar-does-not-autocomplete-with-suggestion>
+
+",2019-12-13T15:14:10.782Z
+5a6f65f5ec6dbc4d8214e28b,"404\. That’s an error
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/404-thats-an-error>
+
+",2019-12-13T15:14:12.035Z
+5a6f65f5ec6dbc4d8214e28b,"Two whatsapp accounts
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/two-whatsapp-
+accounts>
+
+",2019-12-13T15:14:13.272Z
+5a6f65f5ec6dbc4d8214e28b,"Rocketchat do not need a domain ending
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/rocketchat-do-not-
+need-a-domain-ending>
+
+",2019-12-13T15:14:14.514Z
+5a6f65f5ec6dbc4d8214e28b,"Group mail
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/group-mail>
+
+",2019-12-13T15:14:15.803Z
+5a6f65f5ec6dbc4d8214e28b,"Link custom apps with 1password
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/link-custom-apps-
+with-1password>
+
+",2019-12-13T15:14:17.152Z
+5a6f65f5ec6dbc4d8214e28b,"Multiple office365 email account - laspass
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/multiple-
+office365-email-account-laspass>
+
+",2019-12-13T15:14:18.410Z
+5a6f65f5ec6dbc4d8214e28b,"Slow downloading of linux version of station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/slow-downloading-of-
+linux-version-of-station>
+
+",2019-12-13T15:14:19.653Z
+5a6f65f5ec6dbc4d8214e28b,"What tools is for to have chat in my webside
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/what-tools-is-for-
+to-have-chat-in-my-webside>
+
+",2019-12-13T15:14:20.895Z
+5a6f65f5ec6dbc4d8214e28b,"Alt-tab from Station and back loses focus on the text field
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/alt-tab-from-
+station-and-back-loses-focus-on-the-text-field>
+
+",2019-12-13T15:14:22.136Z
+5a6f65f5ec6dbc4d8214e28b,"Facebook Calls
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/facebook-calls>
+
+",2019-12-13T15:14:23.395Z
+5a6f65f5ec6dbc4d8214e28b,"How to get links in Discord to bypass preview window?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-to-get-links-in-
+discord-to-bypass-preview-window>
+
+",2019-12-13T15:14:24.630Z
+5a6f65f5ec6dbc4d8214e28b,"Using Instagram
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/using-instagram>
+
+",2019-12-13T15:14:25.898Z
+5a6f65f5ec6dbc4d8214e28b,"GMAIL Unresponsive on: Stationversion 1.46.1
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/gmail-unresponsive-
+on-stationversion-1461>
+
+",2019-12-13T15:14:27.197Z
+5a6f65f5ec6dbc4d8214e28b,"Snov.io email tracker extension support for GMail
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/snovio-email-
+tracker-extension-support-for-gmail>
+
+",2019-12-13T15:14:28.445Z
+5a6f65f5ec6dbc4d8214e28b,"I really like Station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/i-really-like-
+station>
+
+",2019-12-13T15:14:29.721Z
+5a6f65f5ec6dbc4d8214e28b,"Toggle full screen
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/toggle-full-screen>
+
+",2019-12-13T15:14:30.966Z
+5a6f65f5ec6dbc4d8214e28b,"Tool bar missing?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/tool-bar-missing>
+
+",2019-12-13T15:14:32.238Z
+5a6f65f5ec6dbc4d8214e28b,"How do I select the default Google account to use when opening documents?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-do-i-select-the-
+default-google-account-to-use-when-opening-documents>
+
+",2019-12-13T15:14:33.490Z
+5a6f65f5ec6dbc4d8214e28b,"Notification
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/notification>
+
+",2019-12-13T15:14:34.753Z
+5a6f65f5ec6dbc4d8214e28b,"How about OpenAir integration?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-about-openair-
+integration>
+
+",2019-12-13T15:14:37.328Z
+5d2306856f9b2b2e12de275d,"I wonder, will there be a translation function?
+
+","
+
+Hi [@11123](/u/11123),
+
+We are not planning on having a translation function any time soon. It’s a
+good idea that we’ll keep in mind
+
+",2019-11-26T16:50:16.433Z
+5a6f65f5ec6dbc4d8214e28b,"I wonder, will there be a translation function?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/i-wonder-will-there-
+be-a-translation-function>
+
+",2019-12-13T15:14:38.575Z
+5a6f65f5ec6dbc4d8214e28b,"Slack e Station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/slack-e-station>
+
+",2019-12-13T15:14:39.848Z
+5a6f65f5ec6dbc4d8214e28b,"The nounproject site
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/the-nounproject-
+site>
+
+",2019-12-13T15:14:41.108Z
+5a6f65f5ec6dbc4d8214e28b,"Station for Dummies, Please
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/station-for-dummies-
+please>
+
+",2019-12-13T15:14:42.351Z
+5a6f65f5ec6dbc4d8214e28b,"Problème pour rentrer sur ma boîte mail google
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/probleme-pour-
+rentrer-sur-ma-boite-mail-google>
+
+",2019-12-13T15:14:43.596Z
+5a6f65f5ec6dbc4d8214e28b,"Teams Features
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/teams-features>
+
+",2019-12-13T15:14:44.842Z
+5a6f65f5ec6dbc4d8214e28b,"Microsoft Exchange & Skype for Business
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/microsoft-exchange-
+skype-for-business>
+
+",2019-12-13T15:14:46.091Z
+5a6f65f5ec6dbc4d8214e28b,"Cannot dismiss feature explorer in 1.43.2
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/cannot-dismiss-
+feature-explorer-in-1432>
+
+",2019-12-13T15:14:47.363Z
+5a6f65f5ec6dbc4d8214e28b,"Where is the Station on my computer?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/where-is-the-
+station-on-my-computer>
+
+",2019-12-13T15:14:48.706Z
+5de12a1ec0e4046dc886f8fe,"Asana workspace switch opens new window
+
+","
+
+Yeah same here. Any news on this?
+
+",2019-10-02T20:57:31.503Z
+5a6f65f5ec6dbc4d8214e28b,"Asana workspace switch opens new window
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/asana-workspace-
+switch-opens-new-window>
+
+",2019-12-13T15:14:49.957Z
+5a6f65f5ec6dbc4d8214e28b,"Paste URL and reveal in App
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/paste-url-and-
+reveal-in-app>
+
+",2019-12-13T15:14:51.316Z
+5a6f65f5ec6dbc4d8214e28b,"Multiple Instances of WhatsApp?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/multiple-instances-
+of-whatsapp>
+
+",2019-12-13T15:14:52.580Z
+5a6f65f5ec6dbc4d8214e28b,"Trustpilot Companies Page won't work
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/trustpilot-
+companies-page-wont-work>
+
+",2019-12-13T15:14:53.822Z
+5a6f65f5ec6dbc4d8214e28b,"Whatsapp - Phone not connected
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/whatsapp-phone-not-
+connected>
+
+",2019-12-13T15:14:55.120Z
+5a6f65f5ec6dbc4d8214e28b,"Google Photos
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/google-photos>
+
+",2019-12-13T15:14:56.367Z
+5a6f65f5ec6dbc4d8214e28b,"Slack app downloaded on station app launch
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/slack-app-
+downloaded-on-station-app-launch>
+
+",2019-12-13T15:14:57.651Z
+5a6f65f5ec6dbc4d8214e28b,"Feature Improvements & Bugs - Slack & Adwords
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/feature-
+improvements-bugs-slack-adwords>
+
+",2019-12-13T15:14:58.898Z
+5a6f65f5ec6dbc4d8214e28b,"No custom logo in Google G Suite apps
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/no-custom-logo-in-
+google-g-suite-apps>
+
+",2019-12-13T15:15:00.180Z
+5de129b2bb2f336dd45f450b,"Mail.Ru emails
+
+","
+
+No one knows? =(((((
+
+",2019-10-10T18:21:38.390Z
+5de129b2bb2f336dd45f450b,"Mail.Ru emails
+
+","
+
+Please help me  
+I email box - <http://mail.ru/>
+
+How I can add it to station?
+
+",2019-10-24T18:12:13.924Z
+5a6f65f5ec6dbc4d8214e28b,"Mail.Ru emails
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/mailru-emails>
+
+",2019-12-13T15:15:01.434Z
+5de129f284a659363ba4e8f4,"Unable to add custom app
+
+","
+
+In previous version this could be done. I have other apps which have a URL
+like this. It seems that possibly in newer version you are checking to see if
+the URL is well formed, perhaps ending in .com/.org etc.
+
+",2019-10-04T13:25:46.673Z
+5de129f284a659363ba4e8f4,"Unable to add custom app
+
+","
+
+Can anyone advise how I can do this?
+
+",2019-10-15T07:49:14.291Z
+5a6f65f5ec6dbc4d8214e28b,"Unable to add custom app
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/unable-to-add-
+custom-app>
+
+",2019-12-13T15:15:02.687Z
+5a6f65f5ec6dbc4d8214e28b,"Is it possible to use station as Remote Desktop APP, shared by many users
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/is-it-possible-to-
+use-station-as-remote-desktop-app-shared-by-many-users>
+
+",2019-12-13T15:15:03.981Z
+5a6f65f5ec6dbc4d8214e28b,"Is there an app that connects to the xmpp protocol?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/is-there-an-app-
+that-connects-to-the-xmpp-protocol>
+
+",2019-12-13T15:15:05.242Z
+5cf66312f7799c04ce351bfc,"Toggle between ""workplaces""?
+
+","
+
+I think this feature request might be related: [Group apps together (in the
+dock) / stack apps in folders / categorize
+apps](https://community.getstation.com/t/group-apps-together-in-the-dock-
+stack-apps-in-folders-categorize-apps/164)
+
+",2019-08-05T12:25:29.279Z
+5a6f65f5ec6dbc4d8214e28b,"Toggle between ""workplaces""?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/toggle-between-
+workplaces>
+
+",2019-12-13T15:15:06.523Z
+5a6f6579ec6dbc4d8214e273,"The ""File"" menu is missing from the menu bar
+
+","
+
+Hey [@MattF](/u/mattf),
+
+Thanks for reaching out!  
+It’s always been the case: this is normal behaviour
+
+",2019-04-19T08:23:45.418Z
+5a6f65f5ec6dbc4d8214e28b,"The ""File"" menu is missing from the menu bar
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/the-file-menu-is-
+missing-from-the-menu-bar>
+
+",2019-12-13T15:15:07.836Z
+5a6f65f5ec6dbc4d8214e28b,"Station Transparency
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/station-
+transparency>
+
+",2019-12-13T15:15:09.076Z
+5de131d7bb2f336dd45f5e17,"I have problem and suggestion?
+
+","
+
+we want also tapatalk Communities extention
+
+",2019-08-07T15:56:36.973Z
+5de131d7bb2f336dd45f5e17,"I have problem and suggestion?
+
+","
+
+why no reply ??? the app also very slow when it open !!! nobody care for user
+here ??
+
+",2019-08-07T15:57:48.184Z
+5a6f65f5ec6dbc4d8214e28b,"I have problem and suggestion?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/i-have-problem-and-
+suggestion>
+
+",2019-12-13T15:15:10.321Z
+5de13193bb2f336dd45f5c52,"WhatsApp media location
+
+","
+
+quick tagging of the team to know if I can have some hope of achieving what I
+want or should just grieve my medias…  
+sorry for the ruthless method
+
+   [@Joel](/u/joel)
+   [@Hugo](/u/hugo)
+
+",2019-07-30T09:12:04.628Z
+5a6faae6ec6dbc4d8214e4fc,"WhatsApp media location
+
+","
+
+Hi [@flashbacker](/u/flashbacker), Station stores its cache the same as
+Chromium.  
+The cache folder location depends of your OS:
+
+   MacOS: ~/Library/Application Support/Station/Application Cache/Cache
+   Windows: %appdata%/station/Application Cache/Cache
+   Linux: ~/.config/Station/Application Cache/Cache
+
+Once you’re there, the files are not readable as-is, and Chrome doesn’t even
+have a view anymore to see those files (so neither do we).  
+The only tool I could find is this one:
+<https://www.nirsoft.net/utils/chromecacheview.html>  
+but I haven’t tested it.
+
+Hope you’ll get your files back!
+
+",2019-08-01T14:29:13.043Z
+5a6f65f5ec6dbc4d8214e28b,"WhatsApp media location
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/whatsapp-media-
+location>
+
+",2019-12-13T15:15:11.578Z
+5de13118bb2f336dd45f59ed,"Unable to change avatar
+
+","
+
+What avatar?  
+A little bit more information would be welcome.
+
+",2019-04-12T07:13:59.296Z
+5a6f65f5ec6dbc4d8214e28b,"Unable to change avatar
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/unable-to-change-
+avatar>
+
+",2019-12-13T15:15:12.837Z
+5d2306856f9b2b2e12de275d,"Left App Panel Issues
+
+","
+
+Hello [@musikagod](/u/musikagod),
+
+Thank you for your feedback, I’ll merge your idea with other similar ones.  
+And you should be able to scroll and reach the bottom of the list in the left
+dock. It might help to know what is your operating system. MacOS, Windows or
+Linux? Which version? Have you the last update of Station?
+
+",2019-11-27T15:16:55.349Z
+5d2306856f9b2b2e12de275d,"Left App Panel Issues
+
+","
+
+A post was merged into an existing topic: [Increase dock width / make sidebar
+icons bigger / drag dock to scale on high resolution screens / make it
+clearer](/t/increase-dock-width-make-sidebar-icons-bigger-drag-dock-to-scale-
+on-high-resolution-screens-make-it-clearer/6175)
+
+",2019-11-27T15:53:09.332Z
+5a6f6579ec6dbc4d8214e273,"What are the benefits of Station vs a traditional browser? / Why is Station
+better?
+
+","
+
+Hey [@GenghisKong](/u/genghiskong),
+
+Thanks for reaching out! This should help you:  
+[faq.getstation.com](https://faq.getstation.com/general-questions/why-is-
+station-better-than-a-traditional-web-browser-for-work)
+
+### [Why is Station better than a traditional web browser for
+work?](https://faq.getstation.com/general-questions/why-is-station-better-
+than-a-traditional-web-browser-for-work)
+
+Because it is designed with focus & efficiency in mind.
+
+",2019-02-25T17:30:13.932Z
+5a6f65f5ec6dbc4d8214e28b,"What are the benefits of Station vs a traditional browser? / Why is Station
+better?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/what-are-the-
+benefits-of-station-vs-a-traditional-browser-why-is-stationbetter>
+
+",2019-12-13T15:15:15.348Z
+5a6f65f5ec6dbc4d8214e28b,"How are company-specific URLs stored?
+
+","
+
+Hi [@index](/u/index)
+
+Whenever we add a back office to Station we also ask for the domain name of
+the company. We only make those URLs available to users who are logged in to
+Station with the company e-mail address. There is no way for other users to
+find out this information.
+
+Hope this helps
+
+",2018-04-11T08:38:46.958Z
+5a6f65f5ec6dbc4d8214e28b,"How are company-specific URLs stored?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-are-company-
+specific-urls-stored>
+
+",2019-12-13T15:15:16.631Z
+5a6f6579ec6dbc4d8214e273,"Shortcut to open specifc extension
+
+","
+
+Hey [@rdewolff](/u/rdewolff),
+
+Thanks for reaching out!  
+Just hit Ctrl+H to see all of Station’s available keyboard shortcut.
+
+More info here here:  
+[faq.getstation.com](https://faq.getstation.com/basic-functionalities-and-
+core-features/are-there-any-keyboard-shortcuts-in-station)
+
+### [Are there any keyboard shortcuts in
+Station?](https://faq.getstation.com/basic-functionalities-and-core-
+features/are-there-any-keyboard-shortcuts-in-station)
+
+Press Ctrl+H to view the 30+ available keyboard shortcuts.
+
+Hope this helps.
+
+",2019-04-08T13:23:15.260Z
+5ae630d2906bfd12e600e190,"Shortcut to open specifc extension
+
+","
+
+Thanks for your answer [@Georges](/u/georges).
+
+But am not looking for keyboard shortcuts, am looking on a way to open the app
+from the command line and focus a specific extension.
+
+Do you see the difference?
+
+",2019-04-08T13:36:56.897Z
+5a6f6579ec6dbc4d8214e273,"Shortcut to open specifc extension
+
+","
+
+I do see the difference  
+We don’t have command line options for the moment, what we do have is:
+
+   The Shift + Option + Space system-wide shortcut to open Station’s search
+   The Cmd + # (1, 2, 3, etc.) shortcuts to switch between Station apps.
+
+Those should, maybe imperfectly, cover your use-case
+
+",2019-04-08T13:43:55.457Z
+5a6f65f5ec6dbc4d8214e28b,"Shortcut to open specifc extension
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/shortcut-to-open-
+specifc-extension>
+
+",2019-12-13T15:15:17.889Z
+5a6ffaefec6dbc4d8214e8aa,"Does the Mac dock icon change frequently?
+
+","
+
+maybe easter egg, maybe you are hallucinating…
+
+",2018-10-24T08:50:38.417Z
+5de13985bb2f336dd45f785d,"Does the Mac dock icon change frequently?
+
+","
+
+To maintain my sanity, I took screenshots of the icon at different times of
+the day, and the icon colors look like a function of the time. (It gets
+lighter -> darker from the morning to the evening)
+
+Little touches like this only make me love Station more
+
+",2018-10-25T11:19:30.781Z
+5de13118bb2f336dd45f59ed,"Does the Mac dock icon change frequently?
+
+","
+
+The icon stays the same but the background changes throughout the day,
+according to the time of the day.  
+so maybe you are not insane
+
+",2018-10-25T11:27:34.409Z
+5a6f65f5ec6dbc4d8214e28b,"Does the Mac dock icon change frequently?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/does-the-mac-dock-
+icon-change-frequently>
+
+",2019-12-13T15:15:19.142Z
+5de138c334bf1b3635f04e8d,"What is Station's business model? / Is Station free? / How do you make money?
+
+","
+
+I think they hope to get alot of users with it free, and then add premium
+features or get acquired.
+
+That being said, I have so many problems with it (particularly with Microsoft
+Teams) and useless notifications, I think I’ll have to switch to a paid
+solution
+
+",2019-02-18T15:24:25.003Z
+5a6f6579ec6dbc4d8214e273,"What is Station's business model? / Is Station free? / How do you make money?
+
+","
+
+Hey [@alphex](/u/alphex), [@MarkChinsky](/u/markchinsky)
+
+This might help you  
+[faq.getstation.com](https://faq.getstation.com/general-questions/is-there-a-
+pricing-for-station-how-do-you-make-money)
+
+### [Is there a pricing for Station? How do you make
+money?](https://faq.getstation.com/general-questions/is-there-a-pricing-for-
+station-how-do-you-make-money)
+
+By charging companies for use across entire teams.
+
+",2019-02-25T17:10:16.891Z
+5a6f65f5ec6dbc4d8214e28b,"What is Station's business model? / Is Station free? / How do you make money?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/what-is-stations-
+business-model-is-station-free-how-do-you-make-money>
+
+",2019-12-13T15:15:20.419Z
+5a6f6579ec6dbc4d8214e273,"How to add self-hosted apps?
+
+","
+
+Hey [@yannickberges](/u/yannickberges),
+
+You can instantaneously add any URL you wish to your Station, here’s how:
+
+[faq.getstation.com](https://faq.getstation.com/applications-and-
+extensions/how-to-add-a-custom-application-internal-or-self-hosted-to-my-
+station)
+
+### [How to add a custom application (internal or self hosted) to my
+Station?](https://faq.getstation.com/applications-and-extensions/how-to-add-a-
+custom-application-internal-or-self-hosted-to-my-station)
+
+Open the app-store and click on the ""Add an app"" button in the bottom left
+column.
+
+Cheers!
+
+",2019-03-14T10:07:20.519Z
+5de13786c0e4046dc88727c6,"How to add self-hosted apps?
+
+","
+
+ok but you already have an apps for vtiger but not for community version
+
+",2019-03-14T10:44:18.386Z
+5a6f6579ec6dbc4d8214e273,"How to add self-hosted apps?
+
+","
+
+Yes, you should then request your self-hosted version and input you dedicated
+url
+
+",2019-03-14T13:16:57.666Z
+5de134fb84a659363ba51246,"How to add self-hosted apps?
+
+","
+
+Currently only subdomains of [zulipchat.com](http://zulipchat.com) are
+supported apparently.
+
+We run a private zulip instance and I’d like to be able to provide a custom
+URL when setting it up in Station.
+
+",2019-04-17T08:43:46.000Z
+5a6f65f5ec6dbc4d8214e28b,"How to add self-hosted apps?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/how-to-add-self-
+hosted-apps>
+
+",2019-12-13T15:15:21.675Z
+5a6f65f5ec6dbc4d8214e28b,"Multiple Discord Accounts
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/multiple-discord-
+accounts>
+
+",2019-12-13T15:15:22.932Z
+5a6f6579ec6dbc4d8214e273,"Is there anybody out there?
+
+","
+
+Hey Pascal,
+
+Thanks for reaching out!  
+We’re currently revamping the process to add custom apps since - as you
+experienced it - it’s currently not efficient / fast enough.
+
+In the meantime, you can give me the name of the app(s) you requested and I’ll
+manually prioritise them.
+
+Sorry for the inconvenience.
+
+",2018-07-30T17:25:03.879Z
+5de13118bb2f336dd45f59ed,"Is there anybody out there?
+
+","
+
+You can always wait and look forward to the Custom URL feature if it gets
+implemented.  
+You can find more information about this topic
+here:<https://community.getstation.com/t/custom-url-support-support-any-web-
+app/363>
+
+",2018-10-24T11:07:01.710Z
+5a6f65f5ec6dbc4d8214e28b,"Is there anybody out there?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/is-there-anybody-
+out-there>
+
+",2019-12-13T15:15:24.207Z
+5a6f65f5ec6dbc4d8214e28b,"Changing the engine
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/changing-the-engine>
+
+",2019-12-13T15:15:25.458Z
+5de1409334bf1b3635f07592,"Je ne comprend ""presque"" rien!
+
+","
+
+Bonjour,  
+Si quelqu’un pouvait m’expliquer comment supprimer les appli que l’on
+n’utilise pas, ça m’arrangerait !!!  
+j’ai par erreur ajouté tout un ensemble d’appli dans la barre de gauche qui ne
+me servent à rien et je ne sais pas comment les supprimer. Ca fait 3 jours que
+je cherche désespérément !!!
+
+Merci
+
+",2018-05-06T10:14:00.809Z
+5de13a98bb2f336dd45f7d73,"Je ne comprend ""presque"" rien!
+
+","
+
+Bonjour,
+
+Je ferai de mon mieux pour éclairer ta lanterne.  
+Cette conversation est très ancienne et j’imagine que vous avez déjà
+abandonné, mais si jamais Station vous intéresse encore, ou bien si jamais
+quelqu’un d’autre est intéressé par la plateforme, ma réponse pourra peut-être
+aider.
+
+Station n’est pas censé être un nouveau navigateur, c’est un logiciel capable
+de garder tous vos services/applis sur une seule page (ie je peux utiliser
+Slack, Messenger, Gmail, Drive, tout à partir du même logiciel).
+
+La version actuelle permet de retirer une application très facilement: il
+suffit de cliquer sur l’icône, la petite roue de paramètres, qui amène au
+panneau de configuration de Station, et sur la droite au niveau du nom de
+l’appli, il y a une petite icône de poubelle qui permet de retirer l’appli.
+
+Je tiens à préciser que pour une utilisation optimale il est important
+d’utiliser les raccourcis clavier!
+
+En ce qui est de la lenteur de l’ordinateur, je n’ai moi pas eu cette
+expérience. Je suis toutefois sur Linux et cela pourrait affecter votre
+expérience, mais je pense que globalement l’expérience s’est beaucoup
+améliorée depuis ces 6 mois !
+
+J’espère que cela aura pu vous aider.
+
+PS: vous avez poster votre message dans la mauvaise section!
+
+",2018-11-04T18:02:27.223Z
+5a6f65f5ec6dbc4d8214e28b,"Je ne comprend ""presque"" rien!
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/je-ne-comprend-
+presque-rien>
+
+",2019-12-13T15:15:26.696Z
+5a6f65f5ec6dbc4d8214e28b,"Dubsado app logo is wrong
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/dubsado-app-logo-is-
+wrong>
+
+",2019-12-13T15:15:27.946Z
+5de1328ac0e4046dc8870b81,"What organisation chart apps do you have?
+
+","
+
+Hello balive,  
+I think Notion could be a great app for you? It works with Station and it is
+made to be a “wiki”, and I guess you can manage that kind of things with it.
+
+Maybe you already find something that works for you!  
+Hope I helped anyway
+
+",2018-07-18T08:13:40.291Z
+5a6f65f5ec6dbc4d8214e28b,"What organisation chart apps do you have?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/what-organisation-
+chart-apps-do-you-have>
+
+",2019-12-13T15:15:29.269Z
+5de141f4bb2f336dd45fa611,"Details about 1Password integration
+
+","
+
+From this discussion
+(<https://discussions.agilebits.com/discussion/84852/agilebits-developers>) on
+the Agilebits Forum, it seems that you might be bootstrapping the 1Password
+CLI interface to communicate with [1Password.com](http://1Password.com) to
+retrieve the user credentials. Can you talk about this a bit further?
+
+Without more details, I am (and would advice other Station users to be)
+reluctant to make use of this functionality, until we can all be certain that
+the information entered into the “Connect 1Password” form is not being stored
+somewhere or transmitted?
+
+Looking forward to your clarification.
+
+Thank you!
+
+",2018-02-28T07:06:06.078Z
+5a6ffaefec6dbc4d8214e8aa,"Details about 1Password integration
+
+","
+
+[@vivekkrish](/u/vivekkrish) thanks for your question!
+
+We designed the feature so that no sensitive information are stored or
+transmitted to our server.  
+We wrote a few more details in [this article](http://faq.getstation.com/login-
+and-passwords/1password-integration-and-security).
+
+Happy to share more details!
+
+",2018-03-01T07:37:40.883Z
+5de142c934bf1b3635f07e01,"Details about 1Password integration
+
+","
+
+Love the idea of 1Password integration but still need more info then is in
+your article to feel comfortable about security.
+
+When I add 1Password integration to Station, do you transmit my secret key and
+master password to your server at any time? Are you storing the secret key and
+master password anywhere on my computer or on your server?
+
+It would be really helpful if Agile Bits commented on the implementation.
+
+",2018-03-07T14:53:24.269Z
+5ddff93534bf1b3635eee358,"Details about 1Password integration
+
+","
+
+Jim108:
+
+> It would be really helpful if Agile Bits commented on the implementation
+
+They have, and I must say I’m flummoxed. It’s not promising. The Station team
+should seriously reconsider their implementation and work with Agilebits. This
+is not good practice.
+
+> “Thank you for your feedback. With things as they are right now, we cannot
+> recommend using this other application, as cohix said. Perhaps if they
+> hear some feedback directly from their users about this, they will be more
+> likely to consider this change. We have been in contact with them already,
+> but I think every bit helps.”  
+>  <https://discussions.agilebits.com/discussion/96449/using-1password-with-
+> station>
+
+",2019-09-16T11:50:33.721Z
+5a6f65f5ec6dbc4d8214e28b,"Details about 1Password integration
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/details-
+about-1password-integration>
+
+",2019-12-13T15:15:30.543Z
+5de129bb4d88ec6dd5118559,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+Hi,
+
+I’m also interested in those question.  
+(Thank you Pavel for raising them)
+
+Kind regards  
+Clément
+
+",2019-09-27T08:10:25.069Z
+5de129bc4d88ec6dd5118562,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+Woah, yes, this is a good flag, would like to know more on this as well. Using
+my info with 3rd party apps will definitely influence my use of this app.
+
+",2019-09-27T14:57:57.429Z
+5a6f65f5ec6dbc4d8214e28b,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+Hi [@pavelkroupa](/u/pavelkroupa) [@ClementDufour](/u/clementdufour)
+[@akbar25](/u/akbar25) Thanks for raising those important questions.
+
+Question 1 : I actually can’t think of any other use case than the ones
+provided on these bullet points. Then clearly the use of “May include” is
+confusing and I will update our Privacy Policy accordingly. The only reasons
+why we would use your data is either to:
+
+  1. assist you in any way possible (ex: knowing your version of the app or the apps you use can help us debug an issue you may be facing)
+  2. in order to help us decide on what to build next (ex: we see many users installing application X in Station therefore we prioritize building a better integration of this app over others)
+
+Question 2 : Yes. I can give you a very concrete example from no later
+than yesterday: we used Amplitude (an analytics tool) in order to understand
+which application did users switch the most to using the Quick-Switch feature.
+We wonder how we could improve the Quick-Switch feature but for that we need
+to understand what people use it for. I understand “market insights” is a
+strange term as it resonates as if we were generating reports for people
+outside the company. We do not. This data is used internally only in order to
+figure out how to improve existing features or what to build next.
+
+Question 3 : Yes very good question. We use a tool call Segment (you might
+know) that allow us to easily plug our database to other SaaS services that
+need user data in order to function. Here are 2 very concrete examples:
+
+   [Intercom](https://www.intercom.com) : we use Intercom in order to communicate with our users via email. But sometimes we want to send an email only to the users of version X or users that used a specific feature because it is more relevant to them. Intercom gets data such as last time a user was active, the app version etc. in order to help us email the right users.
+   [Appcues](https://www.appcues.com/) : we use it in order to create the onboarding tooltips you must have seen the first time you used Station. Those tooltips can be triggered based on a set of actions taken by the user. If you haven’t used the Quick-Switch functionality for instance then Appcues needs to know this in order to send a tooltip to introduce the feature. If you’ve used the Quick-Switch, that tooltip is useless for you, hence Appcues won’t show it.
+
+I insist on the fact that Segment and the third-party tools we feed data in
+are GDPR compliant. If tomorrow you ask us to delete all your data, it will be
+removed across all those third-party applications, not just our database.
+
+I hope this answers your questions. I tried to be as detailed as possible as
+we’ve got nothing to hide. Thanks for your questions as they helped us improve
+our Privacy Policy once again and make them clearer for you guys.
+
+Please do not hesitate to hit us with more questions on this! We do not take
+it lightly considering the fact that you indeed use many of your applications
+through Station. It’s natural you wonder what happen to that information. As
+Peter Parker said: with great power comes great responsibility.
+
+",2019-10-02T14:02:59.032Z
+5de129bc4d88ec6dd5118562,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+Will it ever change down the line of how and who uses the information? And if
+it does will you give us notice?
+
+",2019-10-16T18:22:40.177Z
+5a6f65f5ec6dbc4d8214e28b,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+[@akbar25](/u/akbar25) Good question. In order to know if down the line our
+position on data collection will change equals to asking what our future
+business model will be. Either we chose to charge users / companies for it or
+we decide to keep it entirely free and generate revenue from advertising. We
+firmly believe in the former option.
+
+We are currently working hard to build collaborative value for entire
+companies, and ultimately we’d be able to charge for that value we’ve created.
+I am very confident we can succeed and our entire roadmap is geared towards
+that objective.
+
+We are building Station so we have companies pay for the product, rather
+than be the product.
+
+As for your second question: yes, we would definitely update our privacy
+policy if that was to change and you would all be made aware of what exactly
+is changing.
+
+Hope that answers your question.
+
+",2019-10-31T17:31:35.242Z
+5de129bc4d88ec6dd5118562,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+Thanks Julien, I appreciate you taking the time to clarify and respond to this
+one.
+
+",2019-11-04T15:20:28.979Z
+5a6f65f5ec6dbc4d8214e28b,"Privacy policy - How we use the information we collect and how we share
+information
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/privacy-policy-how-
+we-use-the-information-we-collect-and-how-we-shareinformation>
+
+",2019-12-13T15:15:31.794Z
+5dde86e9202a4008f41b61d5,"No Lastpass Integration?
+
+","
+
+I’ve also noticed that the LastPass isn’t as user friendly as the usual web
+version of it. Usually there is a toggle to copy password, and this one makes
+you go in and manually edit, display text, and then copy it.
+
+",2019-07-30T16:00:41.980Z
+5de12a41bb2f336dd45f45e8,"No Lastpass Integration?
+
+","
+
+I’d love lastpass integration as well.
+
+",2019-09-14T03:46:18.830Z
+5de12a03efbdd5349285f378,"No Lastpass Integration?
+
+","
+
+See [Integration with password managers (1password, Lastpass &
+Dashlane)](https://community.getstation.com/t/integration-with-password-
+managers-1password-lastpass-dashlane/80)
+
+",2019-10-20T10:36:16.301Z
+5a6f65f5ec6dbc4d8214e28b,"No Lastpass Integration?
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/no-lastpass-
+integration>
+
+",2019-12-13T15:15:33.066Z
+5a6f65f5ec6dbc4d8214e28b,"Can't sign into gmail/gsuite
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/cant-sign-into-
+gmailgsuite>
+
+",2019-12-13T15:15:34.355Z
+5a6f65f5ec6dbc4d8214e28b,"Show me your Station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/show-me-your-
+station>
+
+",2019-12-13T15:15:35.664Z
+5a6f65f5ec6dbc4d8214e28b,"About Skype in Station
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/about-skype-in-
+station>
+
+",2019-12-13T15:15:36.902Z
+5de12a3b0732316dbb41224f,"30 new applications added to the App Store
+
+","
+
+Any plans to make bitwarden an “official” password manager (like 1Password
+seems to be)?
+
+",2019-07-30T15:35:22.253Z
+5de1324f84a659363ba503bf,"30 new applications added to the App Store
+
+","
+
+Yes Bitwarden is the big one. Station is weak on the security side, I’m
+thinking of giving up on it without something like Bitwarden.
+
+",2019-07-30T15:55:58.923Z
+5a6f65f5ec6dbc4d8214e28b,"30 new applications added to the App Store
+
+","
+
+[@enobrev](/u/enobrev) [@ledevoir](/u/ledevoir) we will continue with Lastpass
+and Dashlane first. No short term plan to cover Bitwarden for now.
+
+",2019-07-30T16:15:54.897Z
+5de13250b36037347d41cf82,"30 new applications added to the App Store
+
+","
+
+I have two facebook accounts , and I’m trying to use Messenger in both of them
+together at the same time , but it wouldn’t allow me to do this . it’s only
+logged in to one messenger account!  
+How can i fix this please ?  
+I can open my both Gmail accounts without any problem though.  
+Thank you so much
+
+",2019-07-30T18:08:42.710Z
+5d263514d1eb70412d64e556,"30 new applications added to the App Store
+
+","
+
+I used LastPass but moved to Bitwarden because it’s open source and I’m using
+it ever since. It would be great to have Bitwarden integrated. However, I
+understand if the partnership with LastPass or Dashlane has a business nature.
+
+",2019-08-01T07:43:36.836Z
+5aff660288bb0928619ddd7d,"30 new applications added to the App Store
+
+","
+
+I see you added Yesware, but it’s not available as a Gmail extension, so it
+can’t really be used. Is the extension integration coming for it soon?
+
+",2019-08-18T19:50:32.254Z
+5a6f65f5ec6dbc4d8214e28b,"30 new applications added to the App Store
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/30-new-applications-
+added-to-the-app-store>
+
+",2019-12-13T15:15:38.177Z
+5de12b18efbdd5349285f82a,"Icon launcher
+
+","
+
+Hello,
+
+Same problem for me on Ubuntu 18.04, after lauching the 1.51.1 AppImage, the
+launcher doesn’t appear anymore.
+
+",2019-09-30T06:18:00.743Z
+5dde8b605450cd7acb57eacb,"Icon launcher
+
+","
+
+Hello community & Station Team !
+
+This message, just to add that the icon disappeared too just after the upgrade
+to Station v1.51.1 on Ubuntu 19.04.
+
+Installation :  
+Station 1.48.1 on Ubuntu 19.04 : Application menu bar icon →OK
+
+Reproduction steps :
+
+   File > Options > “Check for updates” button
+   Download of the new version
+   Restart Station to validate upgrade
+   Icon not more available
+
+Thanks for your hard work !
+
+Best Regards !
+
+",2019-09-30T12:12:18.665Z
+5de12a93c0e4046dc886fa4e,"Icon launcher
+
+","
+
+in fact I have verified that the problem affects all new appimage format
+release applications. But there is a solution to solve the problem: the use of
+The Assassin Appimage Launcher. The debian installation file (bionic) for use
+with Ubuntu is also available. Once the package is installed, it takes care of
+the first launch, without needing to make the appimage package executable, to
+start the application in an extemporaneous or integrated way. If you choose
+the second option, the appimage package is moved to the “Applications” folder
+within your home, it is made executable, it is inserted in the menu with its
+icon. Appimage Launcher also allows, through contextual menu, to update and /
+or remove the chosen appimage. It works very well.
+
+",2019-09-30T15:18:08.125Z
+5de1297fb36037347d41ba0b,"Icon launcher
+
+","
+
+MaurizioDelladio:
+
+> The Assassin Appimage Launcher
+
+Thanks for this tip. I had the same problem, installed APpImage launcher, and
+the Station Icon is back, and I can favorite it again.
+
+",2019-10-08T07:36:42.321Z
+5de12a67efbdd5349285f546,"Icon launcher
+
+","
+
+MaurizioDelladio:
+
+> The Assassin Appimage Launcher
+
+This solved my problem too!
+
+Thanks a lot!
+
+",2019-10-08T16:00:49.381Z
+5de12a67efbdd5349285f546,"Icon launcher
+
+","
+
+I still have a problem and now the updates are not downloaded. Supposedly the
+download and the program closes but does not open again. When I open it
+manually, it keeps previous version
+
+Have you had that problem using TheAssassin / AppImageLauncher?
+
+",2019-10-08T21:54:26.048Z
+5de12a93c0e4046dc886fa4e,"Icon launcher
+
+","
+
+No, I haven’t had this problem with TheAssassin AppImageLauncher for now. Just
+this evening I received an update from Station.
+
+",2019-10-08T22:33:28.418Z
+5de12a93c0e4046dc886fa4e,"Icon launcher
+
+","
+
+[
+](https://www.delladio.it/appo/Screenshot%20from%202019-10-09%2000-37-13.png)
+
+",2019-10-08T22:53:57.987Z
+5de12a67efbdd5349285f546,"Icon launcher
+
+","
+
+Oh! I checked for updates and this new version appears
+
+but when I quit to install the new version, the app does not open again. When
+I manually open the app, the previous version appears:  
+
+",2019-10-09T16:28:09.341Z
+5de12a93c0e4046dc886fa4e,"Icon launcher
+
+","
+
+You are right. Also because the update should replace the previous release
+(1.51.1) with the current one (1.52.2) and this does not happen. I removed the
+previous version via Appimage Launcher and downloaded the next one. But this
+should happen automatically while, at least with my Ubuntu version, no update
+function appears in the context menu.
+
+",2019-10-09T17:10:30.433Z
+5a6f65f5ec6dbc4d8214e28b,"Icon launcher
+
+","
+
+We have moved to a new community, you can now follow this topics
+here:<https://station.canny.io/admin/board/bugs-support/p/icon-launcher>
+
+",2019-12-13T15:15:39.473Z
+5de144fb34bf1b3635f08915,"How to request an app or an extension?
+
+","
+
+I can’t request for TeamWork integration. When I type it, there is no Request
+button because Teamweek is shown.
+
+",2017-11-15T11:16:07.526Z
+5de1353734bf1b3635f036e5,"How to request an app or an extension?
+
+","
+
+I can’t see the request button either.  
+Is there another way to request apps/extensions?
+
+",2017-11-16T16:44:08.915Z
+5c8aa00e5ef4a65f93b26da2,"How to request an app or an extension?
+
+","
+
+Milanote, [Mavio.co](http://Mavio.co) and [Lastpass.com](http://Lastpass.com)
+Please!! Already requested via Station’s + button long time ago!
+
+",2017-11-17T15:26:38.574Z
+5de1448a4d88ec6dd511cc86,"How to request an app or an extension?
+
+","
+
+I can’t request the gmail asana extension because asana exists…
+
+",2017-11-24T02:25:10.921Z
+5de13e0fea851a7cc691bc99,"How to request an app or an extension?
+
+","
+
+Type a space after Gitter or whatever app you are looking to request in the
+search bar and the request button will appear.
+
+",2017-12-02T22:47:00.493Z
+5de13e0fea851a7cc691bc99,"How to request an app or an extension?
+
+","
+
+Interesting, you are correct. I searched and requested it as “
+[gitter.im](http://gitter.im) ” which does work.
+
+",2017-12-03T16:44:26.046Z
+5c0924dafd3ee8292a553d8e,"How to request an app or an extension?
+
+","
+
+Can you please fix the bug that if a similar find is showing you will still be
+able to request? I’m trying to request the Base CRM by futuresimple and
+because “basecamp” is already there I can request what I want.
+
+",2017-12-11T08:35:31.206Z
+5de13698bb2f336dd45f75bf,"How to request an app or an extension?
+
+","
+
+It would be nice if I could see the requests for apps that I have made. I feel
+like the request just goes into a black hole.
+
+The even better goal would be a list of requested apps with a vote count for
+each of them… that way I would also be able to vote for new apps/extensions.
+
+I’m new here, so maybe this already exists, but I haven’t found it. sorry in
+advance if that is the case.
+
+",2019-03-15T17:21:56.791Z
+5de13118bb2f336dd45f59ed,"How to request an app or an extension?
+
+","
+
+Hi [@pthomsen](/u/pthomsen) ,
+
+Actualy this would be a great adition to the “Add apps and extensions” page.  
+maybe you could request it in [Feature
+requests](https://community.getstation.com/c/features-request)?  
+This way the community can vote for this idea  
+You certainly have my vote
+
+",2019-04-09T08:01:48.823Z
+5de13f9bbb2f336dd45f9990,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+When i see your interview on french actuality channel, i move quickly on your
+web site for download your solution ! But after 2 day… I decide to uninstall
+it for now… And hop your solution become better un the future.
+
+Why i decide to unstall it (not a troll, juste for your information :)) :
+
+   No Other languages supports (Your are french project, support french and english would be nice…)
+   For starting to use your solution, you ask me a google account…  yes the gsuite is verry nice solution for business today but a lot of compagny stay on microsoft solution… No possibility to log in with office 365 is cripping for use it on my Business compagny.
+   I decide to use my personnal gmail adresse. But i can’t use only one on “Station”. A lot of people have 2 email account ore more… No possibility to use many account isn’t possible for a business or personnal solution.
+   Sorry for that but Office 365 intégration is realy bad…All the pages open on an external browner… No possibility to add separtly sharepoint access and some othe offices 365 applications…  .
+   In business compagny, we use a lot of “self hosted” web-applications. Or you never can offer support for all web applications on the world. (Not quickly). So possibility to add only a favorite web page browner can be a good solution to add “web-application” manualy when you doesn’t support it yet hould be nesssary.
+   For finish, you have same issues than the other “all in one app” solutions. But you doesn’t offer us the possibility to fix it himselft… For exemple… The microsoft teams error login page. Look this issue on rambox <https://github.com/saenzramiro/rambox/issues/1354>. For waiting a patch on the next version by the developper, we have a solution to change the “user agent” for this app. In business, it’s not possible in business solution to doesn’t have a “quick fix”…
+   No possibility to add password manager than “dashlane” (come one ! it’s an other french solution :)). Lot of compagny use oassword manager for sharing access to they user without give use the passewords. (<https://www.dashlane.com/fr/business>)
+
+Sorry for my english, i try to give you my opinion in english, but i’m better
+in french ^^.  
+Good luck for the future, i come back at the end of the year to see your news
+releases. For now, i stay on the open source solution rambox for my business
+compagny. But you can make a verry good solution for business in the future
+i’m sure. But today it’s more a beta or alpha version (for business compagny)
+than a “ready to use” app.
+
+",2018-05-14T12:21:49.000Z
+5de13b6c34bf1b3635f058e5,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+After using Station for about 5 months I have decided there are too many bugs
+to continue daily use. I find myself back to my browser more often than not to
+access unsupported and/or buggy apps.
+
+Heavy Microsoft Teams user - was working originally, no longer works.  
+Heavy Desk user - never worked.  
+Submitted posts about these two during first month of use - no movement on a
+fix.
+
+Notifications continue to show inaccurate information including a picture for
+someone not associated with the app the notification came from.
+
+No support for LastPass - really difficult for apps that require login daily.
+
+Office / SharePoint is very buggy - requires re-logging in every 5 minutes.
+
+All in all - Station is a great concept! The product I believe has a bright
+future. Which likely means when it finally becomes commercially usable - I
+won’t be able to afford it.
+
+Good luck!
+
+",2018-04-09T13:55:56.000Z
+5de13d534d88ec6dd511b65d,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+Hi there,
+
+First, I love the idea of station. The design and style is great, the apps you
+offer work well, and the pricing is killer.
+
+Unfortunately, for now, I’ll have to use a competitor’s app. I wanted to offer
+some feedback as to why.
+
+  1. The inability to add custom apps. Nearly every competitor has this feature, and it’s invaluable. I use a small, mostly unknown, company for texting my userbase called Betwext. One of the things I really want is to have this logged in and available all the time, without having a browser open. Unfortunately, because of your design philosophy, you decided not to add custom apps. This hurts your end user, because most of us are using some well-known apps, but also probably have our own smaller or internal apps we use. Without this feature, I had to drop station from my list, which is too bad.
+  2. From my experience testing it, station is pretty inefficient with system resources. Compared to 4 other competitors, station came in last place for resources used. It can be slow to load apps, and has a tendency to sort of hang. I’m sure this is something that will improve over time. One thing that would help is a feature some competitors use: suspending resource use on apps that haven’t been touched for a while.
+
+I appreciate the chance to try the software, and will periodically check in to
+see how it’s improved. It certainly has a lot of potential, and I hope
+eventually it’s something my coworkers and I can put to use.
+
+Thanks!  
+James
+
+",2018-08-24T16:47:45.000Z
+5de13e32ea851a7cc691bd00,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+Hi, I’m CTO of a start-up in Berkeley. I spent 30 minutes assessing Station
+for my team. Here are my thoughts.
+
+Firstly, a little about myself. I am a “power user” of computers. I code (and
+manage) for a living, so I’ve taken the time to learn all the shortcuts for
+Chrome, Mac, PyCharm, Vim, etc…
+
+I prefer using the keyboard to the mouse, because it’s faster and less likely
+to injure you over the long term, if you have a decent keyboard. I use the
+Kinesis advantage.
+
+Firstly, the reason I was hesitant to even try Station is security. The
+Station company seems too small to have the resources to securely build a web
+browser. Our entire life gets routed through a web browser, so it’s necessary
+that security is top notch. Nothing about Stations marketing suggested it was
+secure enough to trust with my Google credentials.
+
+Secondly, station has weak keyboard-only support. While pressing CMD+2 and
+CMT+T to navigate between different applications is AMAZING, I needed to be
+able to quickly navigate though application windows as well. So adding (CMD +
+[) and (CMD + ]) to move between application windows would be great. Also, it
+need a shortcut to open new application windows (For Google Drive especially).
+
+I’m excited about this product, and I hope it improves. I’m not going to
+switch at this time, but I’m excited about what Station is attempting to
+achieve. This isn’t my real email, but you can reach me an
+[firstname.lastname@gmail.com](mailto:firstname.lastname@gmail.com)
+
+",2018-08-17T20:23:58.000Z
+5db035e7f4d0413a2306c7ac,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+I’ve just signed up to Shift out of curiosity to compare with Station and in
+all honesty, Station has a much better layout, plus tabs by application and
+the search feature is a winner for me.
+
+The reason why I was curious about Shift in the first place was because of the
+extension functionality, which, in my opinion, is smoother than Station as I
+can use Grammarly, Streak and LastPass across the whole app. These features
+would crush Shift!! Would be awesome if I could check for updates and also
+share my screen via hangouts, Skype and also have the windows compatible to be
+able to cast to other screens. One bonus feature would be to be able to hide,
+minimise and/or move the dock as it gets in the way when doing design work.
+
+",2019-01-24T18:40:35.000Z
+5de139c884a659363ba52537,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+The issue I’m facing is …
+
+First of all, congratulations for Station, it’s something I need for so long.
+Today I knew it was realeased almost two months ago, so I want to ask some
+issues I’m having to see if they are actually fixable or maybe they would be
+future features to include:
+
+   I would like to choose the folder when downloading a file (it happens on Whatsapp).
+   When I make click on something that goes to Linkedin, it opens me a new Linkedin tab, even though I don’t have it installed (I’d like this make me go to my browser).
+   Mailchimp is not working well to me, when trying to open different tabs, the back-arrow disappear and it’s difficult in general navigate there. :-/
+   Finally, I would like to choose individually which apps pop up at my desktop bar, since I would like to receive alerts from Slack and Gmail but not from Whatsapp, for example.
+
+Thank you, keep working hard
+
+  
+
+",2017-11-16T16:11:30.000Z
+5de1392984a659363ba52330,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+   Issue  
+Station for teams looks like it’s broken.  
+Also, for this to TRULY be useful for us, we NEED the ability to set up
+different onboarding for different departments or even individuals. I can’t
+have an employee at one level, load 25 apps 10 of which are for senior
+management.  
+Until that changes STATIOn… is simply a clever idea, one that unfortunately
+fails to fire on the necessary cylinders to make it a viable tool for real
+life use. (I don’t care HOW many companies you tout use it. It simply is half
+baked in its current state.)
+
+   Explanatory gifs/pictures  
+
+[ image.png1920×1080 82.5 KB
+](https://community.getstation.com/uploads/default/original/2X/d/d93140c426f553fab904d021f66b1ba64990d6af.png
+""image.png"")
+
+",2019-02-10T16:26:51.000Z
+5d177f2fa941cc17c0ae8b33,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+Man this product used to be so great and I used it 24/7 but for some reason it
+got super buggy/laggy, way too many updates and releases. Google Cal in
+particular now hangs every 5 minutes.
+
+There’s no customer service (i can’t find an email or help line to just send a
+bloody message to the team anywhere on the site) so this is the only way to
+post feedback
+
+I hung in there for the last month hoping it would be fixed but no choice but
+to abandon the product now, gonna move to SHIFT app which is hella smooth and
+i’m happy to pay for that. What a shame!
+
+",2019-03-28T03:31:59.000Z
+5de13309efbdd53492861966,"Uninstall feedback / leaving Station / competitor analysis
+
+","
+
+[@Georges](/u/georges) \- what’s the impression of the SHIFT app from the
+Station Team’s perspective?
+
+I often see ads for SHIFT app appearing in FB. Curiously you both show
+“Spotify / DropBox and Airbnb” as clients of your app. Given that 3 clients
+are supposedly using 2 very similar app/products within their own
+organisation… I would have imagined the “other” product must have been
+mentioned?
+
+p.s. just asking from friendly and curious mindset - I’m NOT phishing for any
+IP or NDA information
+
+",2019-06-28T15:19:10.759Z
