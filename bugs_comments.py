@@ -76,23 +76,7 @@ with open('canny_topics_bugs2.json', 'r') as p:
     content = p.read()
     topics_canny = ast.literal_eval(content)
 
-topic_slug = ["1password-not-working-not-authenticating-wrong-credentials-cli-is-out-of-date/1930",
-    "frequent-sign-outs-in-office-365-recurrent-logouts-in-microsoft-outlook-unable-to-sign-back-in-one-drive/1404",
-    "cant-present-share-screen-in-skype-google-meet-hangouts-appear-in-stride-slack/683",
-    "whatsapp-automatically-logs-out-qr-code-needs-to-be-scanned-again-after-quitting-exiting-station-leads-to-sign-outs/2874",
-    "dropbox-keeps-showing-pop-up-window-collection-chooser-window-reopens-endlessly-on-closing-it/3077",
-    "slack-messages-are-not-getting-marked-as-read-red-notification-dot-is-always-here/747",
-    "cant-login-to-station-sso-2fa-not-supported-duo-onelogin-okta-rapididentity-google-titan-etc/2205",
-    "notification-are-not-working-are-inconsistent-no-red-dots-activity-badges-on-the-apps-icons/2610",
-    "skype-is-buggy-keeps-freezing-needs-frequent-reloading/4853",
-    "app-store-is-stuck-blank-loading-applications-list-forever/2420",
-    "wunderlist-is-not-working-displays-a-blank-screen/6343",
-    "cant-install-station-undefined-error-setup-crashes/675",
-    "full-white-blank-screen-upon-station-loading-startup/1407",
-    "cant-logout-of-station-change-login-account-switch-login-email-address/2465",
-    "station-cannot-detect-turned-off-do-not-disturb-mode-on-windows-focus-assist-is-always-on/3445",
-    "how-to-uninstall-station/2915",
-    "cant-launch-station-crashes-sqlite-error-duplicate-column-name-subdomain-manifesturl-alwaysloaded-installcontext/3143"]
+topic_slug = slugs_info
 
 first_posts = []
 
