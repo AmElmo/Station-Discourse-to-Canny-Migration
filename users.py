@@ -15,7 +15,7 @@ while i < 100:
     endpoint_users = "https://community.getstation.com/admin/users/list/active.json?order=created&show_emails=true"
 
     payload = {
-    "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+    "Api-Key": "???",
     "Api-Username": "julien"
     }
 
@@ -59,7 +59,7 @@ print(len(users_info))
 endpoint_canny = "https://station.canny.io/api/v1/users/find_or_create"
 
 payload2 = {
-'apiKey': '292eb22b-a1f2-cf73-d5a1-7ce005ffc4b2'
+'apiKey': '???'
 }
 
 count = 0
