@@ -24,7 +24,7 @@ h2t.ignore_images = True
 endpoint_slug = "https://community.getstation.com/c/developers/l/top.json"
 
 payload1 = {
-"Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+"Api-Key": "???",
 "Api-Username": "julien"
 }
 
@@ -53,7 +53,7 @@ for i in topic_slug:
         endpoint_topics = f"https://community.getstation.com/t/{i}/{id}.json"
 
         payload2 = {
-        "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+        "Api-Key": "???",
         "Api-Username": "julien"
         }
 
@@ -111,7 +111,7 @@ jprint(first_posts_final)
 endpoint_canny = "https://canny.io/api/v1/comments/create"
 
 payload2 = {
-'apiKey': '292eb22b-a1f2-cf73-d5a1-7ce005ffc4b2'
+'apiKey': '???'
 }
 
 headers = {
