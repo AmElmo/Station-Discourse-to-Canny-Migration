@@ -34,7 +34,7 @@ while i < 10:
     endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
 
     payload1 = {
-    "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+    "Api-Key": "???",
     "Api-Username": "julien"
     }
 
@@ -83,7 +83,7 @@ for i in topic_slug:
         endpoint_topics = f"https://community.getstation.com/t/{i}/{id}.json"
 
         payload2 = {
-        "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+        "Api-Key": "???",
         "Api-Username": "julien"
         }
 
