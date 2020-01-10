@@ -68,7 +68,7 @@ for i in topic_slug:
     endpoint_topics = f"https://community.getstation.com/t/{i}.json"
 
     payload2 = {
-    "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+    "Api-Key": "???",
     "Api-Username": "julien"
     }
 
