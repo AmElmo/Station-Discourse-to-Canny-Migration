@@ -29,7 +29,7 @@ while i < 10:
     endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
 
     payload1 = {
-    "Api-Key": "e6242d57ec00311031cb8494eed3d8c11bcbba83fc4c9242194322b281ca8ff2",
+    "Api-Key": "???",
     "Api-Username": "julien"
     }
 
@@ -112,7 +112,7 @@ topics_dictionary = {}
 endpoint_canny = "https://station.canny.io/api/v1/posts/create"
 
 payload2 = {
-'apiKey': '292eb22b-a1f2-cf73-d5a1-7ce005ffc4b2'
+'apiKey': '???'
 }
 
 headers = {
