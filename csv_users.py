@@ -36,7 +36,7 @@ for value in users_canny.values():
 endpoint_canny = "https://canny.io/api/v1/users/retrieve"
 
 payload2 = {
-'apiKey': '292eb22b-a1f2-cf73-d5a1-7ce005ffc4b2'
+'apiKey': '???'
 }
 
 headers = {
