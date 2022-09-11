@@ -27,11 +27,10 @@ h2t.ignore_italic = True
 slugs_info = []
 
 
-i = 0
-while i < 10:
-    print(i)
+endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
 
-    endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
+for i in range(10):
+    print(i)
 
     payload1 = {
     "Api-Key": "???",
@@ -43,8 +42,6 @@ while i < 10:
     }
 
     list_slugs = requests.get(endpoint_slug, headers=payload1, params=parameters).json()
-
-    i = i + 1
 
     for d in list_slugs['topic_list']['topics']:
 
@@ -76,7 +73,7 @@ for i in topic_slug:
 
     id = 1
     while id < 100:
-        id = id + 1
+        id += 1
 
         print(i)
         print(id)

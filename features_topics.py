@@ -22,15 +22,15 @@ h2t.ignore_images = True
 slugs_info = []
 
 i = 0
+endpoint_slug = "https://community.getstation.com/c/features-request/l/top/all.json"
+
+payload1 = {
+"Api-Key": "???",
+"Api-Username": "julien"
+}
+
 while i < 3:
-    i = i + 1
-
-    endpoint_slug = "https://community.getstation.com/c/features-request/l/top/all.json"
-
-    payload1 = {
-    "Api-Key": "???",
-    "Api-Username": "julien"
-    }
+    i += 1
 
     parameters = {
     "page": i
@@ -153,7 +153,7 @@ for post in first_posts:
     topics_dictionary[info['discourseID']] = info['cannyID']
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 3:
         print("sleeping")
         time.sleep(2)

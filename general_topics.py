@@ -142,7 +142,7 @@ for post in first_posts:
     topics_dictionary[info['discourseID']] = info['cannyID']
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 3:
         print("sleeping")
         time.sleep(2)
