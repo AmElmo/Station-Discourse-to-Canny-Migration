@@ -45,7 +45,7 @@ for f in endpoint_slug:
         if 'topic_list' not in list_slugs:
             break
 
-        i = i + 1
+        i += 1
 
         for d in list_slugs['topic_list']['topics']:
             # We only select topics that haven't be closed / merged
@@ -84,15 +84,17 @@ for i in topic_slug:
         content = f.read()
         users_canny = ast.literal_eval(content)
 
-    topic_info = {}
-    for stream in topic['post_stream']['posts']:
-        if stream['post_number'] == 1:
-            topic_info = {
-                "authorID":str(stream['user_id']),
-                "created_at": stream['created_at']
+    topic_info = next(
+        (
+            {
+                "authorID": str(stream['user_id']),
+                "created_at": stream['created_at'],
             }
-
-            break
+            for stream in topic['post_stream']['posts']
+            if stream['post_number'] == 1
+        ),
+        {},
+    )
 
     topic_info['title'] = h2t.handle(topic['fancy_title'])
     topic_info["cannyID"] = users_canny[topic_info['authorID']]

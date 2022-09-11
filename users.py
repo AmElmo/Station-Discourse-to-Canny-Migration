@@ -9,10 +9,10 @@ users = []
 users_info = []
 
 i = 0
-while i < 100:
-    i = i + 1
+endpoint_users = "https://community.getstation.com/admin/users/list/active.json?order=created&show_emails=true"
 
-    endpoint_users = "https://community.getstation.com/admin/users/list/active.json?order=created&show_emails=true"
+while i < 100:
+    i += 1
 
     payload = {
     "Api-Key": "???",
@@ -32,12 +32,14 @@ while i < 100:
     # Specific variables to extract
     for d in paged_users:
         info = {
-        "userID":d['id'],
-        "name":d['name'] if d['name'] else d['username'],
-        "email":d['email'],
-        "created":d['created_at'],
-        "avatarURL":"https://community.getstation.com" + d['avatar_template'].replace("{size}", "240")
+            "userID": d['id'],
+            "name": d['name'] or d['username'],
+            "email": d['email'],
+            "created": d['created_at'],
+            "avatarURL": "https://community.getstation.com"
+            + d['avatar_template'].replace("{size}", "240"),
         }
+
         users_info.append(info)
 
     nb_users_exported = len(paged_users)
@@ -71,7 +73,7 @@ for user in users_info:
     print(import_canny.content)
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 25:
         print("sleeping")
         time.sleep(2)

@@ -50,12 +50,11 @@ for d in list_slugs:
 
     title2 = process.extractOne(d['title'], topics_canny.keys())
     print(title2)
-    if title2[1] > 95:
-        title3 = title2[0]
-        print(title3)
-    else:
+    if title2[1] <= 95:
         continue
 
+    title3 = title2[0]
+    print(title3)
     # We only select topics that haven't be closed / merged
     if (d['closed'] is not True and d['posts_count'] > 1):
         slug = f"{d['slug']}/{d['id']}"
@@ -85,62 +84,46 @@ for i in topic_slug:
     print(top1)
     if top1[1] < 95:
         continue
-    else:
-        id = 1
-        while id < 100:
-            id = id + 1
+    id = 1
+    while id < 100:
+        id += 1
 
-            print(i)
-            print(id)
-            endpoint_topics = f"https://community.getstation.com/t/{i}/{id}.json"
+        print(i)
+        print(id)
+        endpoint_topics = f"https://community.getstation.com/t/{i}/{id}.json"
 
-            payload2 = {
-            "Api-Key": "???",
-            "Api-Username": "julien"
-            }
+        payload2 = {
+        "Api-Key": "???",
+        "Api-Username": "julien"
+        }
 
-            # Ensure we don't hit the API rate limit
-            time.sleep(1)
+        # Ensure we don't hit the API rate limit
+        time.sleep(1)
 
-            topic = requests.get(endpoint_topics, headers=payload2).json()
+        topic = requests.get(endpoint_topics, headers=payload2).json()
 
-            if 'posts_count' not in topic:
-                continue
+        if 'posts_count' not in topic:
+            continue
 
-            if id > (topic['posts_count']+topic["reply_count"]+topic["reply_count"]):
-                continue
+        if id > (topic['posts_count']+topic["reply_count"]+topic["reply_count"]):
+            continue
 
-            # Variables to extract (with topic + first post of the topic)
+        # Variables to extract (with topic + first post of the topic)
 
-            topic_info = {}
-            for stream in topic['post_stream']['posts']:
-                if (stream['post_number'] == id and stream['cooked'] != ""):
-                    topic_info = {
-                        # "Topic ID":stream['topic_id'],
-                        # "Created At":stream['created_at'],
-                        "value":h2t.handle(stream['cooked']).replace("*", "").replace("_", ""),
-                        "authorID":str(stream['user_id']),
-                    }
-                    topic_info['postID'] = topic['title']
-                else:
-                    continue
+        topic_info = {}
+        for stream in topic['post_stream']['posts']:
+            if (stream['post_number'] == id and stream['cooked'] != ""):
+                topic_info = {
+                    # "Topic ID":stream['topic_id'],
+                    # "Created At":stream['created_at'],
+                    "value":h2t.handle(stream['cooked']).replace("*", "").replace("_", ""),
+                    "authorID":str(stream['user_id']),
+                }
+                topic_info['postID'] = topic['title']
+        first_posts.append(topic_info)
 
-                    topic_info['imageURLs'] = []
-                    imageURL = BeautifulSoup(stream['cooked'],'lxml').findAll('img')
-                    for image_tag in imageURL:
-                        if any(x in stream['cooked'] for x in ['/emoji/', '/user_avatar/']):
-                            break
-                        else:
-                            if 'img src=\"https://' in stream['cooked']:
-                                topic_info['imageURLs'].append(image_tag.get('src'))
-                            else:
-                                topic_info['imageURLs'].append(f"https://community.getstation.com{image_tag.get('src')}")
-
-
-            first_posts.append(topic_info)
-
-            jprint(topic_info)
-            print(len(first_posts))
+        jprint(topic_info)
+        print(len(first_posts))
 
 
 # Remove duplicates from pagination loop in the dictionary
@@ -164,7 +147,6 @@ headers = {
 count = 0
 count2 = 0
 
-    # Turn Discourse User IDs and Topics ID into Canny User and Topic IDs for linking existing data
 for post in first_posts_final:
     userID = post['authorID']
     title1 = process.extractOne(post['postID'], topics_canny.keys())
@@ -191,10 +173,10 @@ for post in first_posts_final:
     print(import_canny.status_code)
 
     count2 = count2+1
-    print('progress: ' + str(count2))
+    print(f'progress: {str(count2)}')
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 3:
         print("sleeping")
         time.sleep(2)

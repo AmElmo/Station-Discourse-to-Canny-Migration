@@ -24,14 +24,14 @@ h2t.ignore_italic = True
 slugs_info = []
 
 i = 0
+endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
+
+payload1 = {
+"Api-Key": "???",
+"Api-Username": "julien"
+}
+
 while i < 10:
-
-    endpoint_slug = "https://community.getstation.com/c/bugs/l/top/all.json"
-
-    payload1 = {
-    "Api-Key": "???",
-    "Api-Username": "julien"
-    }
 
     parameters = {
     "page": i
@@ -39,7 +39,7 @@ while i < 10:
 
     list_slugs = requests.get(endpoint_slug, headers=payload1, params=parameters).json()['topic_list']['topics']
 
-    i = i + 1
+    i += 1
 
     for d in list_slugs:
         # We only select topics that haven't be closed / merged
@@ -158,7 +158,7 @@ for post in first_posts:
     topics_dictionary[info['discourseID']] = info['cannyID']
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 3:
         print("sleeping")
         time.sleep(2)

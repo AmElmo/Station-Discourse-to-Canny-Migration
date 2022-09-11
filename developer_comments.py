@@ -48,7 +48,7 @@ first_posts = []
 for i in topic_slug:
     id = 0
     while id < 200:
-        id = id + 1
+        id += 1
 
         endpoint_topics = f"https://community.getstation.com/t/{i}/{id}.json"
 
@@ -73,22 +73,22 @@ for i in topic_slug:
         for stream in topic['post_stream']['posts']:
             if (stream['post_number'] > id and stream['cooked'] != ""):
                 topic_info = {
-                    # "Topic ID":stream['topic_id'],
-                    # "Created At":stream['created_at'],
-                    "value":h2t.handle(stream['cooked']).replace("*", "").replace("_", ""),
-                    "authorID":str(stream['user_id']),
-                    "postID": str(stream['topic_id'])
+                    "value": h2t.handle(stream['cooked'])
+                    .replace("*", "")
+                    .replace("_", ""),
+                    "authorID": str(stream['user_id']),
+                    "postID": str(stream['topic_id']),
+                    'imageURLs': [],
                 }
-                topic_info['imageURLs'] = []
+
                 imageURL = BeautifulSoup(stream['cooked'],'lxml').findAll('img')
                 for image_tag in imageURL:
                     if any(x in stream['cooked'] for x in ['/emoji/', '/user_avatar/']):
                         break
+                    if 'img src=\"https://' in stream['cooked']:
+                        topic_info['imageURLs'].append(image_tag.get('src'))
                     else:
-                        if 'img src=\"https://' in stream['cooked']:
-                            topic_info['imageURLs'].append(image_tag.get('src'))
-                        else:
-                            topic_info['imageURLs'].append(f"https://community.getstation.com{image_tag.get('src')}")
+                        topic_info['imageURLs'].append(f"https://community.getstation.com{image_tag.get('src')}")
 
                 # Ensure we don't hit the API rate limit
                 time.sleep(2)
@@ -146,7 +146,7 @@ for post in first_posts_final:
     print(import_canny.status_code)
 
     count = count+1
-    print('count ' + str(count))
+    print(f'count {str(count)}')
     if count == 3:
         print("sleeping")
         time.sleep(2)
